@@ -1,0 +1,3 @@
+# Visión General
+
+Documentación en proceso...
