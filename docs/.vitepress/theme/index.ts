@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import TeamPage from './components/TeamPage.vue';
+import CenterContent from './components/CenterContent.vue';
 import './style/custom.scss';
 import {Theme, useRouter} from 'vitepress';
 import {watch} from 'vue';
@@ -13,6 +14,7 @@ export default {
                }) {
         // Add components.
         app.component('TeamPage', TeamPage);
+        app.component('CenterContent', CenterContent);
 
     },
     setup(_) {

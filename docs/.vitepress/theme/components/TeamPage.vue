@@ -28,8 +28,8 @@ const members = [{
         link: 'https://www.linkedin.com/in/alejandrogonzalezcobos',
     }],
 }, {
-    avatar: 'https://github.com/juliotpaez.png',
-    name: 'David ???',
+    avatar: '/team/david.jpg',
+    name: 'David',
     title: 'Designer',
 }];
 
