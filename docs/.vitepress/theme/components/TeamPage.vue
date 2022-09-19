@@ -6,7 +6,7 @@ const props = defineProps<{
 }>();
 
 const members = [{
-    avatar: 'https://github.com/juliotpaez.png',
+    avatar: '/team/julio.png',
     name: 'Julio Treviño',
     title: 'CEO / Developer',
     links: [{
