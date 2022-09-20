@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,d as s,r as n}from"./app.8c586bc2.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"es/team.md"}'),r={name:"es/team.md"};function c(m,p,_,d,l,i){const e=n("TeamPage");return t(),o("div",null,[s(e,{lang:"es"})])}const g=a(r,[["render",c]]);export{u as __pageData,g as default};
