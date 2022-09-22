@@ -75,15 +75,18 @@ Finally, a specific set of Suris can be expressed in the tagged format.
 This format consist in reversing the Suri, remove the initial 2 levels and add a
 symbol as prefix. There rules can only be applied to:
 
-- `<suri>.mention.tag` whose symbols is `@` and results in `@<reversed_suri>`.
-  This is normally known as _mention_ in social networks.
-- `<suri>.hash.tag` whose symbols is `#` and results in `#<reversed_suri>`.
-  This is normally known as _hashtag_ in social networks.
-- `<suri>.anchor.tag` whose symbols is `&` and results in `&<reversed_suri>`.
-- `<suri>.cash.tag` whose symbols is `$` and results in `$<reversed_suri>`.
-  This is normally known as _cashtag_ in social [Twitter](https://twitter.com).
-- `<suri>.alert.tag` whose symbols is `!` and results in `!<reversed_suri>`.
-- `<suri>.question.tag` whose symbols is `?` and results in `?<reversed_suri>`.
+<CenterContent>
+
+| Name           | Symbol | Tagged Form        | Canonical Form        |
+|----------------|:------:|--------------------|-----------------------|
+| Mention        |   @    | `@<reversed_suri>` | `<suri>.mention.tag`  |
+| Hash / Hashtag |   #    | `#<reversed_suri>` | `<suri>.hash.tag`     |
+| Cash / Cashtag |   $    | `$<reversed_suri>` | `<suri>.cash.tag`     |
+| Anchor         |   &    | `&<reversed_suri>` | `<suri>.anchor.tag`   |
+| Alert          |   !    | `!<reversed_suri>` | `<suri>.alert.tag`    |
+| Question       |   ?    | `?<reversed_suri>` | `<suri>.question.tag` |
+
+</CenterContent>
 
 The reason to reverse the Suri is that in standard Suris we want to emphasize the
 most specific entry level due to it is the focus of our action. In the Suri
@@ -104,8 +107,8 @@ Examples:
 
 - `@a.b.c` becomes `c.b.a.mention.tag.` in the canonical format.
 - `#a.b.c` becomes `c.b.a.hash.tag.` in the canonical format.
-- `&a.b.c` becomes `c.b.a.anchor.tag.` in the canonical format.
 - `$a.b.c` becomes `c.b.a.cash.tag.` in the canonical format.
+- `&a.b.c` becomes `c.b.a.anchor.tag.` in the canonical format.
 - `!a.b.c` becomes `c.b.a.alert.tag.` in the canonical format.
 - `?a.b.c` becomes `c.b.a.question.tag.` in the canonical format.
 
