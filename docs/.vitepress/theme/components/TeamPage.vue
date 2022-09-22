@@ -28,9 +28,13 @@ const members = [{
         link: 'https://www.linkedin.com/in/alejandrogonzalezcobos',
     }],
 }, {
-    avatar: '/team/david.jpg',
-    name: 'David',
+    avatar: '/team/david.jpeg',
+    name: 'David López',
     title: 'Designer',
+    links: [{
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/in/lopezgraphicdesign',
+    }],
 }];
 
 let title = 'Our Team';
