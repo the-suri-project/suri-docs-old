@@ -10,8 +10,8 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Overview',
         link: '/en/overview',
     }, {
-        text: 'Applications',
-        link: '/en/applications',
+        text: 'Use cases',
+        link: '/en/use-cases',
     }, {
         text: 'FAQs',
         link: '/en/faqs',
@@ -37,9 +37,12 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
     }, {
         text: 'Bookings',
         link: '/en/domains/bookings',
+    }, {
+        text: 'NFTs',
+        link: '/en/domains/nfts',
     }],
 }, {
-    text: '📜 Suri Protocol',
+    text: '📜 SURI Protocol',
     collapsible: true,
     items: [{
         text: 'Protocol',
@@ -70,6 +73,13 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
             text: 'Search Algorithm',
             link: '/en/protocol/queries/algorithm',
         }],
+    }, {
+        text: 'Authorities',
+        link: '/en/protocol/authorities/',
+        items: [{
+            text: 'Permissions',
+            link: '/en/protocol/authorities/permissions',
+        }],
     }],
 }, {
     text: '🛠 Development',
@@ -90,5 +100,8 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
             text: 'TypeScript SDK',
             link: '/en/development/sdk/typescript',
         }],
+    }, {
+        text: 'Migrating from Web2',
+        link: '/en/development/web2-migration',
     }],
 }];

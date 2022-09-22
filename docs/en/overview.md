@@ -1,19 +1,22 @@
 # Overview: the project
 
-**SURI Protocol** is meant as an infrastructure, as ``foundation to web 3.0 services`` to be built on top. 
-
+**Suri** is meant to be an infrastructure project that gives users the necessary tools to create fully-native Web3
+services being the **foundation** for all the projects built on top.
 
 ::: info Insight
-At its core activity, **SURI** will manage the root level for all domain names (Top Level Domains). Users will be able to buy these TLD for their own use or for resale.
+At its core activity, **Suri** will manage the root level of all suri domains ([Top Level Domains][TLD] in Web2). Users
+will be able to buy these suris for their own use or for resale.
 :::
- 
 
-**SURI** will provide a **Smart Contract** as a groundwork for all owners who buy domains to set their own sale conditions (allowance period, resellability, << añadir más >>…). 
+**Suri** will provide a **Smart Contract** on Solana as a groundwork for all owners who buy domains to set their own
+sale conditions for their children (allowed names, allowance period, resellability, payment model, ...).
 
-Owners can verify the claim to the domains they hold with a `SURI NFT`, which will be granted during the buying process. 
+Owners can verify the claim to the domains they hold with a [NFT](/en/domains/nfts), which will be granted during the
+buying process.
 
 ::: info Note
-This is the only purpose for SURI NFTs. This is an infrastructure project and the value of SURI NFTs will be that of the SURI domain behind it.
+This is the only purpose for the NFTs. This is an infrastructure project and the value of the NFTs will be that of the
+suri domain behind it.
 :::
- 
 
+[TLD]: https://en.wikipedia.org/wiki/Top-level_domain

@@ -7,15 +7,16 @@ interface DefaultThemeConfig extends DefaultTheme.Config {
 }
 
 export default defineConfigWithTheme<DefaultThemeConfig>({
-    title: 'Suri',
+    title: 'The Suri Project',
+    description: 'The official documentation of the Suri project',
     locales: {
         '/en/': {
             lang: 'en-US',
-            description: 'The official documentation of the Suri protocol',
         },
         '/es/': {
             lang: 'es-ES',
-            description: 'La documentación oficial del protocolo Suri',
+            title: 'Proyecto Suri',
+            description: 'La documentación oficial del proyecto Suri',
         },
     },
     cleanUrls: 'with-subfolders',
