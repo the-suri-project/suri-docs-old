@@ -39,6 +39,9 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
     }], ['meta', {
         name: 'theme-color',
         content: '#f5d15d',
+    }], ['link', {
+        rel: 'manifest',
+        href: '/site.webmanifest',
     }]],
     locales: {
         '/en/': {
