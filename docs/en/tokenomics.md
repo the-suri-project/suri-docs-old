@@ -18,12 +18,13 @@ Active NFTs will carry the value of the suri it represents. On the other hand, e
 one people wants to give them.
 :::
 
-## Future DAO
+## Governance Token
 
-We have plans to build a DAO or _Decentralized Autonomous Organization_ to manage the **Suri Project** in the future.
-This DAO will probably be ruled by a democratic system using a governance token as vote weight.
+**Suri** will become a DAO (_Decentralized Autonomous Organization_) in the future in order to truly decentralize
+the **Suri** organization. This DAO will probably be ruled by a democratic system using a governance token as vote
+weight.
 
 ::: info
 The structure of the DAO and all its mechanisms will be agreed with the **Suri** community. You can join us
-on [discord](https://discord.gg/CtzA2kPdA7) to discuss about it.
+on [discord](https://discord.gg/CtzA2kPdA7) to discuss it.
 :::
