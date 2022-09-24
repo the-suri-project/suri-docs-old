@@ -7,7 +7,8 @@ interface DefaultThemeConfig extends DefaultTheme.Config {
 }
 
 export default defineConfigWithTheme<DefaultThemeConfig>({
-    title: ' ',
+    title: '',
+    titleTemplate: 'The Suri Project',
     description: 'The official documentation of the Suri project',
     head: [['link', {
         rel: 'apple-touch-icon',
@@ -49,7 +50,6 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
         },
         '/es/': {
             lang: 'es-ES',
-            title: ' ',
             description: 'La documentación oficial del proyecto Suri',
         },
     },

@@ -1,4 +1,4 @@
-# About Suri Project
+# What is Suri?
 
 **Suri** stands for _Solana URI_ and is a **Web3 native** infrastructure project. Its primary goal is to provide a
 decentralized and powerful _Domain Name Service_ based on Solana's blockchain.
