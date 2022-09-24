@@ -110,6 +110,14 @@ place here.
 
 ## Technical FAQs
 
+<FaqBox title="Why don't we use SNS?">
+
+The [Solana Name Service][SNS] (SNS) is a great project but it is extremely simple in its concepts and at the same time
+very messy to use. We want to provide a better experience for the users, that's the reason of building a new Solana
+program for **Suri**.
+
+</FaqBox>
+
 <FaqBox title="Can I hold my Suri domain's NFT in my wallet?">
 
 Because **Suri** uses NFTs as the source of ownership, you can hold them in any wallet that supports SPL tokens.
@@ -168,3 +176,5 @@ of [SDKs](/en/development/sdk/), but you need to wait until the Phase 2 of the p
 </FaqBox>
 
 [TLD]: https://en.wikipedia.org/wiki/Top-level_domain
+
+[SNS]: https://spl.solana.com/name-service#:~:text=A%20SPL%20program%20for%20issuing,public%20keys%20with%20various%20links.
