@@ -9,3 +9,5 @@ if (isClientSide()){
     location.replace(`${location.origin}/${language.value}/`);
 }
 </script>
+
+# What is Suri?
