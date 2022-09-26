@@ -10,6 +10,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
     title: '',
     titleTemplate: 'The Suri Project',
     description: 'The official documentation of the Suri project',
+    appearance: false,
     head: [['link', {
         rel: 'apple-touch-icon',
         sizes: '180x180',

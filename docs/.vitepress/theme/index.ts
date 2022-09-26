@@ -17,10 +17,12 @@ export default {
         app.component('TeamPage', TeamPage);
         app.component('CenterContent', CenterContent);
         app.component('FaqBox', FaqBox);
-
     },
     setup(_) {
         const router = useRouter();
+
+        // Set dark style.
+        document.documentElement.classList.add('dark');
 
         // Set language.
         watch(router.route, (newValue) => {
