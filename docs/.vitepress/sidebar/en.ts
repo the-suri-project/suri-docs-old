@@ -32,6 +32,9 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Domains',
         link: '/en/domains/',
     }, {
+        text: 'Tagged Domains',
+        link: '/en/domains/tagged',
+    }, {
         text: 'Formats',
         link: '/en/domains/formats',
     }, {
@@ -48,6 +51,9 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Protocol',
         link: '/en/protocol/',
     }, {
+        text: 'Subscription model',
+        link: '/en/protocol/subscription',
+    }, {
         text: 'Records',
         link: '/en/protocol/records/',
         items: [{
@@ -56,12 +62,13 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         }, {
             text: 'Protocols',
             link: '/en/protocol/records/protocols/',
+            items: [{
+                text: 'Standard Protocols',
+                link: '/en/protocol/records/protocols/standard',
+            }],
         }, {
             text: 'Values',
             link: '/en/protocol/records/values',
-        }, {
-            text: 'Standard Protocols',
-            link: '/en/protocol/records/protocols/standard',
         }],
     }, {
         text: 'Record Queries',

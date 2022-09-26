@@ -1,6 +1,6 @@
 # FAQs
 
-This is meant to be a list of Frequently Asked Question related to the whole **Suri** project, including the domains and
+This is meant to be a list of Frequently Asked Question related to the whole **Suri Project**, including the domains and
 the protocol.
 
 ## Bookings
