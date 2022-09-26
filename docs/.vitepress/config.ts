@@ -104,6 +104,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
                     text: 'Equipo',
                     link: '/es/team',
                 }],
+                outlineTitle: 'En esta página',
                 docFooter: {
                     prev: 'Pagina anterior',
                     next: 'Próxima página',
