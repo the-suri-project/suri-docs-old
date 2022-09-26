@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as r}from"./app.6103a0ea.js";const u=JSON.parse('{"title":"SURI Protocol","description":"","frontmatter":{},"headers":[],"relativePath":"en/protocol/index.md"}'),a={name:"en/protocol/index.md"},n=r("",4),s=[n];function i(c,h,l,p,d,_){return o(),t("div",null,s)}const m=e(a,[["render",i]]);export{u as __pageData,m as default};
