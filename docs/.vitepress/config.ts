@@ -84,7 +84,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
             '/en/': {
                 sidebar: SidebarEnLocale,
                 nav: [{
-                    text: 'Web',
+                    text: 'Home',
                     link: 'https://suri.domains',
                 }, {
                     text: 'Team',
@@ -98,7 +98,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
             '/es/': {
                 sidebar: SidebarEsLocale,
                 nav: [{
-                    text: 'Web',
+                    text: 'Inicio',
                     link: 'https://suri.domains',
                 }, {
                     text: 'Equipo',

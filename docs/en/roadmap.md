@@ -50,5 +50,4 @@ most of them were not though to be used the way we use them today, so they lack 
 for simple tasks.
 
 We are now living a great revolution with the Web3 in which people like changes, so there is no better time to do it
-than
-now.
+than now.

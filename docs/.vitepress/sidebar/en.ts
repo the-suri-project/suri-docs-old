@@ -32,7 +32,7 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Domains',
         link: '/en/domains/',
     }, {
-        text: 'Tagged Domains',
+        text: 'Tagged suris',
         link: '/en/domains/tagged',
     }, {
         text: 'Formats',

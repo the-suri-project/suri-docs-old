@@ -1,4 +1,4 @@
-# Suri Domains
+# Suri domains
 
 Suri domains are a hierarchy of names that works like a tree similarly to DNS. The root of the tree is the suri root
 domain `.` and each parent can have multiple children.

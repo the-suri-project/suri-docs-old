@@ -1,4 +1,4 @@
-# Suri Domain Formats
+# Suri domain formats
 
 The Suris are defined by a series of names separated by dots `.`. Those names are
 called _level entries_ because each of them belongs to a specific level, starting

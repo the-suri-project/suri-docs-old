@@ -1,4 +1,4 @@
-# Tagged Suri Domains
+# Tagged suris
 
 Tagged suris consist of a prefix denoting a special meaning and a list of suri names separated by a dot `.`,
 e.g. `@myUserName.twitter`, `#subject`, `$USDC`, etc.

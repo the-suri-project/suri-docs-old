@@ -1,7 +1,7 @@
 # SURI Protocol
 
 The **SURI Protocol** is an on-chain program in Solana that allows users to
-claim [suris](http://localhost:5173/en/domains/).
+claim [suris](/en/domains/).
 It is a decentralized alternative to the current DNS system, which is controlled by a few big companies.
 
 The protocol stores on-chain the suris' information, their configuration, how to [pay](/en/protocol/subscription)
