@@ -5,6 +5,7 @@ import FaqBox from './components/FaqBox.vue';
 import './style/custom.scss';
 import {Theme, useRouter} from 'vitepress';
 import {watch} from 'vue';
+import {isClientSide} from './utils/clientOnly';
 
 export default {
     ...DefaultTheme,
@@ -22,7 +23,9 @@ export default {
         const router = useRouter();
 
         // Set dark style.
-        document.documentElement.classList.add('dark');
+        if (isClientSide()) {
+            document.documentElement.classList.add('dark');
+        }
 
         // Set language.
         watch(router.route, (newValue) => {
