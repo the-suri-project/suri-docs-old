@@ -57,8 +57,8 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Records',
         link: '/en/protocol/records/',
         items: [{
-            text: 'Formats',
-            link: '/en/protocol/records/formats',
+            text: 'Format',
+            link: '/en/protocol/records/format',
         }, {
             text: 'Protocols',
             link: '/en/protocol/records/protocols/',
@@ -67,18 +67,18 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
                 link: '/en/protocol/records/protocols/standard',
             }],
         }, {
-            text: 'Values',
-            link: '/en/protocol/records/values',
+            text: 'Arguments',
+            link: '/en/protocol/records/arguments',
         }],
     }, {
-        text: 'Record Queries',
-        link: '/en/protocol/queries/',
+        text: 'Searching',
+        link: '/en/protocol/searching/',
         items: [{
             text: 'Query Formats',
-            link: '/en/protocol/queries/formats',
+            link: '/en/protocol/searching/formats',
         }, {
-            text: 'Search Algorithm',
-            link: '/en/protocol/queries/algorithm',
+            text: 'Algorithm',
+            link: '/en/protocol/searching/algorithm',
         }],
     }, {
         text: 'Authorities',

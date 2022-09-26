@@ -4,7 +4,7 @@ The Suris are defined by a series of names separated by dots `.`. Those names ar
 called _level entries_ because each of them belongs to a specific level, starting
 the count from the last one.
 
-```txt
+```
    Specificity  
 + ◄──────────── -
 docs.suri.domains
@@ -21,7 +21,7 @@ of 3.
 When a Suri has a level of 1, it is called **TLS** or _Top Level Suri_ the same way
 **TLD** or _Top Level Domain_ is used for web2 domains.
 
-::: info Note
+::: info Insight
 The root Suri is the only one that has level 0, and it's represented by a single dot
 `.`
 :::
@@ -39,7 +39,7 @@ to the least one (left to right) being each level followed by a dot `.`.
 
 ::: details Formal definition
 
-```txt
+```
 <canonical_suri> := <level_entry>+ | '.'
    <level_entry> := <name> '.'
           <name> := <name_char>+

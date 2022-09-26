@@ -24,8 +24,8 @@ current DNS standard is limited in its usability, as it can only translate domai
 set of protocols.
 
 ::: info Note
-Only authorized IEEE customers are allowed to distribute the domain names under their control. And, sometimes, certain
-domain names remain restricted.
+Only authorized IEEE customers are allowed to distribute the domain names under their control. Moreover, they restrict
+the access to most of the _Top Level Domains_.
 :::
 
 With **Suri**, these limitations are gone, as users will be allowed to use all domain names,

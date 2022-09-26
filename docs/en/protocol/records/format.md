@@ -1,13 +1,13 @@
-# Record Formats
+# Record Format
 
-The records have only one canonical format for their definitions, consisting of
-a Suri in its [standard format](../../domains/formats#standard-format) followed
-by a colon `:` and a list of protocols along with their arguments:
+Records have only one canonical format for their definitions, consisting of a Suri in
+its [standard format](../../domains/formats#standard-format) followed by a colon `:` and a stack of protocols along with
+their arguments:
 
 ```
 suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 ─┬────────── ─┬──────────────────────────
- └►Suri       └►Protocol list
+ └►Suri       └►Protocol stack
 ```
 
 The protocols are expressed by indicating the highest level first to facilitate the
@@ -43,4 +43,23 @@ suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 ::: warning
 Empty arguments are not allowed. For example, `suri:protocol()` is not a
 valid record definition.
+:::
+
+::: info Insight
+The final value of a record is the result of combining the value of each protocol inside the record.
+:::
+
+## Signature
+
+All records have a signature that identifies them and allows to classify them. The signature is the list of protocol
+names without arguments.
+
+```
+Record:    suri.domains:http<tcp(80)<ipv4(127.0.0.1)
+                        ──── ───     ────
+Signature:              http<tcp    <ipv4
+```
+
+::: info Insight
+The signature does not need to be unique.
 :::

@@ -14,9 +14,8 @@ sale conditions for their children (allowed names, allowance period, resellabili
 Owners can verify the claim to the domains they hold with a [NFT](/en/domains/nfts), which will be granted during the
 buying process.
 
-::: info Note
-This is the only purpose for the NFTs. This is an infrastructure project and the value of the NFTs will be that of the
-suri domain behind it.
+::: info Insight
+This is the only purpose for the NFTs whose values will be that of the suri domain behind it.
 :::
 
 [TLD]: https://en.wikipedia.org/wiki/Top-level_domain

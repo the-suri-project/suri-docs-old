@@ -95,7 +95,7 @@ With this model we achieve one of **Suri**'s main goals: suris must expire to no
 
 Children are managed by their parent, so you need to ask the parent's owner how to buy a child suri.
 
-> Note that almost all children of suris owned by the **Suri Project** can be directly bougth
+> Note that almost all children of suris owned by the **Suri Project** can be directly bought
 > at [suri.domains](https://suri.domains)
 
 </FaqBox>
