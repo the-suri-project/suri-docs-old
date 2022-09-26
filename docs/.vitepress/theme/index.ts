@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import TeamPage from './components/TeamPage.vue';
 import CenterContent from './components/CenterContent.vue';
+import FaqBox from './components/FaqBox.vue';
 import './style/custom.scss';
 import {Theme, useRouter} from 'vitepress';
 import {watch} from 'vue';
@@ -15,10 +16,13 @@ export default {
         // Add components.
         app.component('TeamPage', TeamPage);
         app.component('CenterContent', CenterContent);
-
+        app.component('FaqBox', FaqBox);
     },
     setup(_) {
         const router = useRouter();
+
+        // Set dark style.
+        document.documentElement.classList.add('dark');
 
         // Set language.
         watch(router.route, (newValue) => {

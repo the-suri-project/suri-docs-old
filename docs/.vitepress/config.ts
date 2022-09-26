@@ -7,20 +7,56 @@ interface DefaultThemeConfig extends DefaultTheme.Config {
 }
 
 export default defineConfigWithTheme<DefaultThemeConfig>({
-    title: 'Suri',
+    title: '',
+    titleTemplate: 'The Suri Project',
+    description: 'The official documentation of the Suri project',
+    appearance: false,
+    head: [['link', {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/favicons/apple-touch-icon.png',
+    }], ['link', {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicons/favicon-32x32.png',
+    }], ['link', {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicons/favicon-16x16.png',
+    }], ['link', {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '192x192',
+        href: '/favicons/android-chrome-192x192.png',
+    }], ['link', {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '512x512',
+        href: '/favicons/android-chrome-512x512.png',
+    }], ['link', {
+        rel: 'shortcut icon',
+        href: '/favicon.ico',
+    }], ['meta', {
+        name: 'theme-color',
+        content: '#f5d15d',
+    }], ['link', {
+        rel: 'manifest',
+        href: '/site.webmanifest',
+    }]],
     locales: {
         '/en/': {
             lang: 'en-US',
-            description: 'The official documentation of the Suri protocol',
         },
         '/es/': {
             lang: 'es-ES',
-            description: 'La documentación oficial del protocolo Suri',
+            description: 'La documentación oficial del proyecto Suri',
         },
     },
     cleanUrls: 'with-subfolders',
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/header_logo.png',
         socialLinks: [{
             icon: 'github',
             link: 'https://github.com/treviware/suri-docs',
@@ -48,6 +84,9 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
             '/en/': {
                 sidebar: SidebarEnLocale,
                 nav: [{
+                    text: 'Home',
+                    link: 'https://suri.domains',
+                }, {
                     text: 'Team',
                     link: '/en/team',
                 }],
@@ -59,9 +98,13 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
             '/es/': {
                 sidebar: SidebarEsLocale,
                 nav: [{
+                    text: 'Inicio',
+                    link: 'https://suri.domains',
+                }, {
                     text: 'Equipo',
                     link: '/es/team',
                 }],
+                outlineTitle: 'En esta página',
                 docFooter: {
                     prev: 'Pagina anterior',
                     next: 'Próxima página',

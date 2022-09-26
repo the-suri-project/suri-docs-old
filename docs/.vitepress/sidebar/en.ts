@@ -10,8 +10,8 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Overview',
         link: '/en/overview',
     }, {
-        text: 'Applications',
-        link: '/en/applications',
+        text: 'Use cases',
+        link: '/en/use-cases',
     }, {
         text: 'FAQs',
         link: '/en/faqs',
@@ -32,43 +32,60 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
         text: 'Domains',
         link: '/en/domains/',
     }, {
+        text: 'Tagged suris',
+        link: '/en/domains/tagged',
+    }, {
         text: 'Formats',
         link: '/en/domains/formats',
     }, {
         text: 'Bookings',
         link: '/en/domains/bookings',
+    }, {
+        text: 'NFTs',
+        link: '/en/domains/nfts',
     }],
 }, {
-    text: '📜 Suri Protocol',
+    text: '📜 SURI Protocol',
     collapsible: true,
     items: [{
         text: 'Protocol',
         link: '/en/protocol/',
     }, {
+        text: 'Subscription model',
+        link: '/en/protocol/subscription',
+    }, {
         text: 'Records',
         link: '/en/protocol/records/',
         items: [{
-            text: 'Formats',
-            link: '/en/protocol/records/formats',
+            text: 'Format',
+            link: '/en/protocol/records/format',
         }, {
             text: 'Protocols',
             link: '/en/protocol/records/protocols/',
+            items: [{
+                text: 'Standard Protocols',
+                link: '/en/protocol/records/protocols/standard',
+            }],
         }, {
-            text: 'Values',
-            link: '/en/protocol/records/values',
-        }, {
-            text: 'Standard Protocols',
-            link: '/en/protocol/records/protocols/standard',
+            text: 'Arguments',
+            link: '/en/protocol/records/arguments',
         }],
     }, {
-        text: 'Record Queries',
-        link: '/en/protocol/queries/',
+        text: 'Searching',
+        link: '/en/protocol/searching/',
         items: [{
             text: 'Query Formats',
-            link: '/en/protocol/queries/formats',
+            link: '/en/protocol/searching/formats',
         }, {
-            text: 'Search Algorithm',
-            link: '/en/protocol/queries/algorithm',
+            text: 'Algorithm',
+            link: '/en/protocol/searching/algorithm',
+        }],
+    }, {
+        text: 'Authorities',
+        link: '/en/protocol/authorities/',
+        items: [{
+            text: 'Permissions',
+            link: '/en/protocol/authorities/permissions',
         }],
     }],
 }, {
@@ -90,5 +107,8 @@ export const SidebarEnLocale: DefaultTheme.Sidebar = [{
             text: 'TypeScript SDK',
             link: '/en/development/sdk/typescript',
         }],
+    }, {
+        text: 'Migrating from Web2',
+        link: '/en/development/web2-migration',
     }],
 }];
