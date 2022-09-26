@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as i}from"./app.a4cb95ae.js";const _=JSON.parse('{"title":"Authorities","description":"","frontmatter":{},"headers":[],"relativePath":"en/protocol/authorities/index.md"}'),s={name:"en/protocol/authorities/index.md"},o=i("",6),r=[o];function n(l,c,h,d,u,p){return t(),a("div",null,r)}const f=e(s,[["render",n]]);export{_ as __pageData,f as default};

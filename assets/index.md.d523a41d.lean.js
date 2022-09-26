@@ -1,1 +1,0 @@
-import{u as a,f as t,o,c as n}from"./app.6103a0ea.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),r={name:"index.md"},u=Object.assign(r,{setup(s){a();const e=t("lang","en");return location.replace(`${location.origin}/${e.value}/`),(c,i)=>(o(),n("div"))}});export{_ as __pageData,u as default};
