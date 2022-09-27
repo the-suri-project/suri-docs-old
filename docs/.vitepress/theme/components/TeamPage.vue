@@ -8,7 +8,10 @@ const props = defineProps<{
 const members = [{
     avatar: '/team/julio.png',
     name: 'Julio Treviño',
-    title: 'CEO / Developer',
+    title: {
+        en: 'CTO / Developer',
+        es: 'CTO / Desarrollador',
+    },
     links: [{
         icon: 'github',
         link: 'https://github.com/juliotpaez',
@@ -22,7 +25,10 @@ const members = [{
 }, {
     avatar: '/team/alex.jpg',
     name: 'Alejandro González',
-    title: 'Marketer',
+    title: {
+        en: 'Marketing Director',
+        es: 'Director de Marketing',
+    },
     links: [{
         icon: 'linkedin',
         link: 'https://www.linkedin.com/in/alejandrogonzalezcobos',
@@ -30,7 +36,10 @@ const members = [{
 }, {
     avatar: '/team/david.jpeg',
     name: 'David López',
-    title: 'Designer',
+    title: {
+        en: 'Designer',
+        es: 'Diseñador',
+    },
     links: [{
         icon: 'linkedin',
         link: 'https://www.linkedin.com/in/lopezgraphicdesign',
@@ -45,6 +54,10 @@ if (props.lang === 'es') {
     message =
         'El proyecto Suri está siendo desarrollado por uno de los equipos más profesionales y dedicados a construir infraestructuras en web3, algunos de los cuales han decidido ser presentados a continuación.';
 }
+
+for (const member of members) {
+    member.title = member.title[props.lang];
+}
 </script>
 
 <template>
@@ -57,7 +70,7 @@ if (props.lang === 'es') {
                 {{ message }}
             </template>
         </VPTeamPageTitle>
-        <VPTeamMembers :members="members"/>
+        <VPTeamMembers :members="members" :lang="props.lang"/>
     </VPTeamPage>
 </template>
 
