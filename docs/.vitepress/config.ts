@@ -11,7 +11,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
     titleTemplate: 'The Suri Project',
     description: 'The official documentation of the Suri project',
     appearance: false,
-    head: [['link', {
+    head: [['script', {}, 'document.documentElement.classList.add(\'dark\')'], ['link', {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/favicons/apple-touch-icon.png',
