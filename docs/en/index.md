@@ -17,7 +17,7 @@ docs.suri.domains
  └► IP address = 192.168.1.1
 ```
 
-## Why SURI?
+## Why Suri?
 
 Web2 based DNS service needs a domain under the ownership of [IEEE](https://www.ieee.org/) to work. Furthermore, the
 current DNS standard is limited in its usability, as it can only translate domains into a constrained and finite

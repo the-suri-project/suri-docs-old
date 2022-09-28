@@ -4,13 +4,13 @@ Below is a list of **Suri**'s acknowledged competitors.
 
 ## Bonfida
 
-[Bonfida](https://naming.bonfida.org/) is considered **SURI Protocol**'s main competitor. It is also based on Solana's
+[Bonfida](https://naming.bonfida.org/) is considered **Suri**'s main competitor. It is also based on Solana's
 blockchain, but it is more limited in its capabilities and development-ability, as **Bonfida** is not currently going
 beyond the current Web2's [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) features in the way the Web3 deserves.
 
 The main similarities and differences are:
 
-|                          |    Bonfida    |                  SURI Protocol                   |
+|                          |    Bonfida    |                       Suri                       |
 |--------------------------|:-------------:|:------------------------------------------------:|
 | Blockchain               |    Solana     |                      Solana                      |
 | Domains                  |  Only `.sol`  |            Any level including [TLDs]            |
@@ -28,7 +28,7 @@ fee.
 
 The main similarities and differences are:
 
-|                          |                     ENS                      |                  SURI Protocol                   |
+|                          |                     ENS                      |                       Suri                       |
 |--------------------------|:--------------------------------------------:|:------------------------------------------------:|
 | Blockchain               |                   Ethereum                   |                      Solana                      |
 | Interaction fees         |                     High                     |                    Negligible                    |
@@ -38,7 +38,7 @@ The main similarities and differences are:
 | Tagged domains `@myName` |                      No                      |            [Yes](/en/domains/tagged)             |
 | Custom protocol support  |                [Limited][*5]                 | [Fully support](/en/protocol/records/protocols/) |
 
-## Why choose SURI?
+## Why choose Suri?
 
 Instead, **Suri** is a Web 3.0 native project and can approach the entire scope and develop the use cases needed to
 become the _foundation_ for the next generation of internet infrastructure.

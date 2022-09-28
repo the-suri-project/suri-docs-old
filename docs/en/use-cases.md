@@ -1,6 +1,6 @@
 # Use cases & Key benefits
 
-**SURI Protocol** will enhance current [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) service to create a new
+**SUNS Protocol** will enhance current [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) service to create a new
 Web3 standard for the next internet generation.
 
 ## User benefits
@@ -30,7 +30,7 @@ A list of benefits coming from this infrastructure project is found below:
 
 ## Technical improvements
 
-The **SURI Protocol** is an on-chain version of the [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) protocol
+The **SUNS Protocol** is an on-chain version of the [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) protocol
 used to navigate the internet. Of course, it is not just a replacement, it is a greatly improved version. Some of its
 characteristics will be:
 
@@ -40,13 +40,13 @@ characteristics will be:
 - **Subscription payment**: suris will pay their parents in order to keep active using a subscription payment.
 
 - **Any protocol support**: DNS only supports some standard protocols, like IPv4 (register A), IPv6 (register AAAA),
-  etc. On the other side, the **SURI Protocol** will support some built-in protocols but anyone can add support for any
+  etc. On the other side, the **SUNS Protocol** will support some built-in protocols but anyone can add support for any
   other protocol at any moment without restrictions.
 
   This leads to map suris to wallets in any chain, websites, social or private information, etc. allowing using suris as
   an identity service.
 
-- **Full routing**: forget about proxys. The **SURI Protocol** resolution mechanism will allow to route people
+- **Full routing**: forget about proxys. The **SUNS Protocol** resolution mechanism will allow to route people
   to different services on different ports of the same machine without having to relay on a reverse proxy.
 
 - **Load balancing**: the protocol will have built-in support for some balancing algorithms to distribute the load
@@ -66,7 +66,7 @@ characteristics will be:
   social networks. This can be useful to update your public name, description or profile picture in all the networks at
   the same time, just updating your suri.
 
-- **On-chain authorization**: websites, social networks or any service can integrate with the **SURI Protocol** to allow
+- **On-chain authorization**: websites, social networks or any service can integrate with the **SUNS Protocol** to allow
   their users to sing up in their systems with users' suris. Those services can include some information in the suri
   to define that the user is authorized to use their systems, so only providing ownership of the suri will be enough to
   log in again.
@@ -75,7 +75,7 @@ characteristics will be:
   services behind a suri instead of paying expensive services.
 
 - **Serve multiple websites on the same machine**: currently we need to use reverse proxies to serve multiple websites
-  on the same machine. With the **SURI Protocol** this will be possible without the need of a reverse proxy.
+  on the same machine. With the **SUNS Protocol** this will be possible without the need of a reverse proxy.
 
   ::: info Insight
   This feature will not be limited to websites but will be working for any protocol/service.
@@ -85,6 +85,6 @@ characteristics will be:
   `111.subs.netflix`) charging them for their services using the built-in subscription model. As soon as the user stops
   paying or the suri expires, it gets reflected in the service access.
 
-These ideas are just only the beginning, people are free to use and build over the **SURI Protocol** any way they want.
+These ideas are just only the beginning, people are free to use and build over the **SUNS Protocol** any way they want.
 
 Feel free to join us in the [Discord](https://discord.gg/CtzA2kPdA7) to tell us about new ideas and use cases.

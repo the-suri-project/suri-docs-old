@@ -4,7 +4,7 @@ This repo contains all the documentation of:
 
 - An overview of the project
 - The Suris (web3 domain names)
-- The Suri protocol (a DNS-like protocol for web3)
+- The SUNS protocol (a DNS-like protocol for web3)
 
 You can read it at [docs.suri.domains](https://docs.suri.domains)
 

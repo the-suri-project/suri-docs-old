@@ -62,7 +62,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
             link: 'https://github.com/treviware/suri-docs',
         }, {
             icon: 'twitter',
-            link: 'https://twitter.com/SuriProtocol',
+            link: 'https://twitter.com/thesuriproject',
         }, {
             icon: 'discord',
             link: 'https://discord.gg/CtzA2kPdA7',
