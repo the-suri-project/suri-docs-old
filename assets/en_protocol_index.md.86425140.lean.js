@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as r}from"./app.a012c674.js";const m=JSON.parse('{"title":"SUNS Protocol","description":"","frontmatter":{},"headers":[],"relativePath":"en/protocol/index.md"}'),a={name:"en/protocol/index.md"},n=r("",4),s=[n];function i(c,h,l,p,d,_){return o(),t("div",null,s)}const u=e(a,[["render",i]]);export{m as __pageData,u as default};
