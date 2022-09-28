@@ -44,6 +44,21 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
     }], ['link', {
         rel: 'manifest',
         href: '/site.webmanifest',
+    }], ['meta', {
+        property: 'og:type',
+        content: 'website',
+    }], ['meta', {
+        property: 'og:url',
+        content: 'https://docs.suri.domains/',
+    }], ['meta', {
+        property: 'og:image',
+        content: 'https://docs.suri.domains/external-link-image.png',
+    }], ['meta', {
+        property: 'twitter:card',
+        content: 'summary_large_image',
+    }], ['meta', {
+        property: 'twitter:image',
+        content: 'https://docs.suri.domains/external-link-image.png',
     }]],
     locales: {
         '/en/': {
