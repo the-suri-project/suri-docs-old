@@ -1,7 +1,7 @@
 # Overview: the project
 
-**Suri** is meant to be an infrastructure project that gives users the necessary tools to create fully-native Web3
-services being the **foundation** for all the projects built on top.
+**Suri** is meant to be an infrastructure project which will provide users with the necessary tools to create native-born Web3
+services. It is meant to be the **foundation** for all the projects built on top.
 
 ::: info Insight
 At its core activity, **Suri** will manage the root level of all suri domains ([Top Level Domains][TLD] in Web2). Users
@@ -15,7 +15,7 @@ Owners can verify the claim to the domains they hold with a [NFT](/en/domains/nf
 buying process.
 
 ::: info Insight
-This is the only purpose for the NFTs whose values will be that of the suri domain behind it.
+This is the only purpose for the NFTs. Their values will be that of the suri domains behind them. They will not possess any value on their own.
 :::
 
 [TLD]: https://en.wikipedia.org/wiki/Top-level_domain
