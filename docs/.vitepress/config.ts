@@ -11,7 +11,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
     titleTemplate: 'The Suri Project',
     description: 'The official documentation of the Suri project',
     appearance: false,
-    head: [['link', {
+    head: [['script', {}, 'document.documentElement.classList.add(\'dark\')'], ['link', {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/favicons/apple-touch-icon.png',
@@ -44,6 +44,21 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
     }], ['link', {
         rel: 'manifest',
         href: '/site.webmanifest',
+    }], ['meta', {
+        property: 'og:type',
+        content: 'website',
+    }], ['meta', {
+        property: 'og:url',
+        content: 'https://docs.suri.domains/',
+    }], ['meta', {
+        property: 'og:image',
+        content: 'https://docs.suri.domains/external-link-image.png',
+    }], ['meta', {
+        property: 'twitter:card',
+        content: 'summary_large_image',
+    }], ['meta', {
+        property: 'twitter:image',
+        content: 'https://docs.suri.domains/external-link-image.png',
     }]],
     locales: {
         '/en/': {
@@ -62,7 +77,7 @@ export default defineConfigWithTheme<DefaultThemeConfig>({
             link: 'https://github.com/treviware/suri-docs',
         }, {
             icon: 'twitter',
-            link: 'https://twitter.com/SuriProtocol',
+            link: 'https://twitter.com/thesuriproject',
         }, {
             icon: 'discord',
             link: 'https://discord.gg/CtzA2kPdA7',

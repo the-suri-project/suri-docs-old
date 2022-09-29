@@ -21,9 +21,6 @@ export default {
     setup(_) {
         const router = useRouter();
 
-        // Set dark style.
-        document.documentElement.classList.add('dark');
-
         // Set language.
         watch(router.route, (newValue) => {
             if (newValue.path === '/') {

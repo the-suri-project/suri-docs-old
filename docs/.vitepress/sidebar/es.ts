@@ -45,7 +45,7 @@ export const SidebarEsLocale: DefaultTheme.Sidebar = [{
         link: '/es/domains/nfts',
     }],
 }, {
-    text: '📜 Protocolo SURI',
+    text: '📜 Protocolo SUNS',
     collapsible: true,
     items: [{
         text: 'Protocolo',
