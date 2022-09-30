@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,a as o}from"./app.a012c674.js";const m=JSON.parse('{"title":"Tagged suris","description":"","frontmatter":{},"headers":[],"relativePath":"en/domains/tagged.md"}'),s={name:"en/domains/tagged.md"},i=o("",8),n=[i];function r(c,d,u,p,l,h){return t(),a("div",null,n)}const f=e(s,[["render",r]]);export{m as __pageData,f as default};
