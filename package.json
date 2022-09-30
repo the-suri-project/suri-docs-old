@@ -2,20 +2,19 @@
   "name": "suri-docs",
   "version": "0.1.0",
   "description": "The documentation of the Suri project",
-  "main": "index.js",
   "repository": "https://github.com/juliotpaez/suri",
   "author": "Julio Treviño Páez <julio.tpaez@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^18.7.18",
-    "@vueuse/core": "^9.2.0",
-    "sass": "^1.54.9",
-    "vitepress": "^1.0.0-alpha.14",
-    "vue": "^3.2.39"
-  },
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.51",
+    "vue": "^3.2.29",
+    "vuepress": "2.0.0-beta.51",
+    "vuepress-theme-hope": "2.0.0-beta.104"
   }
 }
