@@ -1,7 +1,7 @@
 # Suri domains
 
-Suri domains are a hierarchy of names that works like a tree similarly to DNS. The root of the tree is the suri root
-domain `.` and each parent can have multiple children.
+Suri domains, or just suris, are the base of the project. They work as a hierarchy of names in which parents manage
+their children. The root of the tree is the suri root domain `.` and each parent can have multiple children.
 
 ```
                     .

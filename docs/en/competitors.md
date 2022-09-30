@@ -23,8 +23,8 @@ The main similarities and differences are:
 
 [ENS](https://ens.domains/) is a decentralized naming system based on the Ethereum blockchain. It is famous for
 providing access to `.eth` domains. The main advantage of ENS is to be based on ethereum, one of the most used
-blockchain networks, but that comes along with its main drawback: any action on your domain or records implies to pay a great
-fee.
+blockchain networks, but that comes along with its main drawback: any action on your domain or records implies to pay a
+great fee.
 
 The main similarities and differences are:
 

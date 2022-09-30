@@ -34,17 +34,22 @@ community how to do it the better way in order to give that method all the neces
 
 ## What will come
 
-Finally, when the governance method is ready, we, as a community, will decide what to do next with the project. Here are some of our 
-ideas, but again, the community will decide:
+Finally, when the governance method is ready, we, as a community, will decide what to do next with the project. Here are
+some of our ideas, but again, the community will decide:
 
 - Develop a new browser to navigate through the web3 internet as the default option and web2 as fallback.
 - Develop a disruptive version of web languages JS/HTML/CSS, ignoring backward compatibility with web2.
 - Develop a disruptive version of other high level protocols like HTTP, ignoring the retro-compatibility with web2.
 - etc.
 
-After reading the proposals, you maybe be asking yourself: **why being so disruptive? Why the need to change everything?**
+After reading the proposals, you maybe be asking yourself: **why being so disruptive? Why the need to change
+everything?**
 
-We believe that technology must have backward compatibility for better adoption and support, but we also think that every now and then, we must let disruptive technologies arise, so we can improve and expand beyond the existing technologies' limitations. Current technologies were designed in early 21st century, and most of them were not though to be used the way they are employed today, and hence they lack capabilities or have become very complex for simple tasks.
+We believe that technology must have backward compatibility for better adoption and support, but we also think that
+every now and then, we must let disruptive technologies arise, so we can improve and expand beyond the existing
+technologies' limitations. Current technologies were designed in early 21st century, and most of them were not though to
+be used the way they are employed today, and hence they lack capabilities or have become very complex for simple tasks.
 
-With Web3, we are now living a great revolution, so we strongly believe there is no better time to leave behind obsolete technologies 
-than now. We must let internet technologies evolve, and we believe **SURI** can lay the foundations for the upcoming change of paradigm
+With Web3, we are now living a great revolution, so we strongly believe there is no better time to leave behind obsolete
+technologies than now. We must let internet technologies evolve, and we believe **SURI** can lay the foundations for the
+upcoming change of paradigm

@@ -1,7 +1,7 @@
 # FAQs
 
-This is meant to be a list of Frequently Asked Question related to the entirety of **Suri Project**'s scope, including the domains and
-the protocol.
+This is meant to be a list of Frequently Asked Question related to the entirety of **Suri Project**'s scope, including
+the domains and the protocol.
 
 ## Bookings
 
@@ -17,8 +17,8 @@ the free methods or by directly buying one.
 Once you have completed the booking process, you need to go to your [suri list](https://suri.domains/my-suris) and click
 on any of the `Generate NFT` buttons.
 
-After that we will require you to sign a transaction to mint the booking NFT so you can receive it in your wallet. This process
-is totally free except for the network fees due to the minting process.
+After that we will require you to sign a transaction to mint the booking NFT so you can receive it in your wallet. This
+process is totally free except for the network fees due to the minting process.
 
 Note that this process can take a few minutes to complete.
 
@@ -39,8 +39,8 @@ follow these rules:
 
 - **Free bookings** will have a period of 1 month to be claimed by the owner. After that period, the suri will be open
   for anyone to buy it.
-- On the other hand, **paid bookings** will have an entire calendar year (the paid period) to claim the suri. After that, the suri
-  will be open again for anyone to buy it.
+- On the other hand, **paid bookings** will have an entire calendar year (the paid period) to claim the suri. After
+  that, the suri will be open again for anyone to buy it.
 
 </FaqBox>
 
@@ -72,9 +72,10 @@ would obtain by burning them in your wallet or other tools.
 
 <FaqBox title="Are NFTs going to be sold as a source of revenue?">
 
-NFTs in **Suri** are just a means to an end, so they don't have any value on their own, other than the one given to them. Whilst
-they are active, the value would be the one of the suri domain they represent. Meanwhile, when they expire, they have no residual
-value.
+NFTs in **Suri** are just a means to an end, so they don't have any value on their own, other than the one given to
+them. Whilst they are active, the value would be the one of the suri domain they represent. Meanwhile, when they expire,
+they have no
+residual value.
 
 </FaqBox>
 
