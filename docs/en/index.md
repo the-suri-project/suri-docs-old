@@ -33,17 +33,16 @@ including [Top Level Domains][TLD], without the need to be a notable individual/
 Moreover, **Suri** supports the [Unicode](https://unicode.org/) standard, therefore you can acquire your domains in your
 own language, not restricting to the **ASCII characters** currently used by Web2's DNS.
 
-Asides, thanks to the versatility in Solana's blockchain, the [use cases](https://docs.suri.domains/en/applications)
+Asides, thanks to the versatility in Solana's blockchain, the [use cases](https://docs.suri.domains/en/use-cases)
 of **Suri** will grow exponentially, as users will be able to register any protocol in their suris, not just the
 conventional ones.
 
 ## Why Solana?
 
-Despite being still in beta, [Solana](https://solana.com) is one of the most promising blockchains. It has a great
-open-source community, low fees and a great performance compared to its main competitors, like Ethereum.
+Even though the final release of [Solana](https://solana.com) has not yet arrived, it is already one of the most promising blockchain networks. It has a great
+open-source community, low fees and a great performance compared to its main competitors, like [Ethereum](https://ethereum.org/).
 
-Technically, Solana is a younger blockchain but implements new technologies that make it a great choice for any project
-and specially for **Suri**. Low fees, Rust-based on-chain programs and a great performance are some reasons why **Suri**
-is built on top of Solana.
+Technically wise, Solana is a younger blockchain but it implements new features and technologies which make it a great choice for any project
+and specially for **Suri**. With Solana, **Suri** benefits from low fees, rust-based on-chain programs and a great performance.
 
 [TLD]: https://en.wikipedia.org/wiki/Top-level_domain

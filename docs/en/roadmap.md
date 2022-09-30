@@ -15,13 +15,13 @@ etc. apart from receiving initial feedback from the community.
 Moreover, during this phase we will be developing the on-chain program, the different SDKs to interact with it,
 a UI to manage the suris, etc. and we also be growing our community.
 
-## Phase 2 - The SUNS protocol
+## Phase 2 - SUNS protocol
 
 When the second phase starts, we will release the SDKs, the on-chain program, etc. as open source projects on GitHub as
 well as this [documentation](https://github.com/treviware/suri-docs) is now.
 
 People will be using and testing each part of the code, so we will be able to fix any bugs that appear at that moment
-and improve the system with the feedback of the community.
+and improve the system with the community's feedback.
 
 ## Phase 3 - Real decentralization
 
@@ -34,20 +34,17 @@ community how to do it the better way in order to give that method all the neces
 
 ## What will come
 
-Finally, when the governance method is ready, we, as a community, will decide what to do next with the project. Our
-ideas are the following, but the community will decide:
+Finally, when the governance method is ready, we, as a community, will decide what to do next with the project. Here are some of our 
+ideas, but again, the community will decide:
 
-- Make a new browser to navigate through the web3 internet as the default option and web2 as fallback.
-- Make a disruptive version of web languages JS/HTML/CSS, ignoring the retro-compatibility with web2.
-- Make a disruptive version of other high level protocols like HTTP, ignoring the retro-compatibility with web2.
+- Develop a new browser to navigate through the web3 internet as the default option and web2 as fallback.
+- Develop a disruptive version of web languages JS/HTML/CSS, ignoring backward compatibility with web2.
+- Develop a disruptive version of other high level protocols like HTTP, ignoring the retro-compatibility with web2.
 - etc.
 
-After reading the proposals, you maybe be asking yourself: **why being so disruptive and changing everything?**
+After reading the proposals, you maybe be asking yourself: **why being so disruptive? Why the need to change everything?**
 
-We think that the technology must be retro-compatible for better adoption and support, but we also think that from time
-to time we need to be disruptive to let it improve beyond the limits. Current technologies were designed long ago and
-most of them were not though to be used the way we use them today, so they lack capabilities or they are very complex
-for simple tasks.
+We believe that technology must have backward compatibility for better adoption and support, but we also think that every now and then, we must let disruptive technologies arise, so we can improve and expand beyond the existing technologies' limitations. Current technologies were designed in early 21st century, and most of them were not though to be used the way they are employed today, and hence they lack capabilities or have become very complex for simple tasks.
 
-We are now living a great revolution with the Web3 in which people like changes, so there is no better time to do it
-than now.
+With Web3, we are now living a great revolution, so we strongly believe there is no better time to leave behind obsolete technologies 
+than now. We must let internet technologies evolve, and we believe **SURI** can lay the foundations for the upcoming change of paradigm

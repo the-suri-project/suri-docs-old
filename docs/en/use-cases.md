@@ -1,7 +1,7 @@
 # Use cases & Key benefits
 
 **SUNS Protocol** will enhance current [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) service to create a new
-Web3 standard for the next internet generation.
+standard for developments made in Web3: the next internet generation.
 
 ## User benefits
 
@@ -15,7 +15,7 @@ A list of benefits coming from this infrastructure project is found below:
   available to all users.
 
   ::: info Insight
-  Our politic is to not ban any domain **BUT** we will protect brands, remarkable users, etc. for bad uses of their
+  Our policy is not to ban any domain **BUT**, recognised brands will be protected, as well as noteworthy users, etc. against bad uses of their
   names. Moreover, we will reserve the right to block TLD suris that are used for illegal purposes.
   :::
 
@@ -25,32 +25,32 @@ A list of benefits coming from this infrastructure project is found below:
   want to approve an [authority](/en/protocol/authorities/).
 
 - **All your content in your suri**: under a single suri, an owner can [register](/en/protocol/records/) different
-  data with multiple purposes (website links, social media profiles, crypto wallets, etc.). This will lead to build
+  data with multiple purposes (website links, social media profiles, crypto wallets, etc.). This will enable users to build
   _Digital Identity Services_ over the protocol.
 
 ## Technical improvements
 
-The **SUNS Protocol** is an on-chain version of the [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) protocol
+**SUNS Protocol** is an on-chain version of the [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) protocol
 used to navigate the internet. Of course, it is not just a replacement, it is a greatly improved version. Some of its
-characteristics will be:
+main features will be:
 
-- **Decentralized**: the protocol will be fully working on-chain, so there will not be a central authority (say bye to
+- **Decentralized**: the protocol will be working fully on-chain, so there will be no central authority (say goodbye to
   IEEE). Moreover, each parent will have the rights to manage its direct children.
 
-- **Subscription payment**: suris will pay their parents in order to keep active using a subscription payment.
+- **Subscription-based model**: suris will pay their parents in order to keep active using a subscription payment.
 
-- **Any protocol support**: DNS only supports some standard protocols, like IPv4 (register A), IPv6 (register AAAA),
+- **Enhanced protocol support**: DNS only supports some standard protocols, like IPv4 (register A), IPv6 (register AAAA),
   etc. On the other side, the **SUNS Protocol** will support some built-in protocols but anyone can add support for any
   other protocol at any moment without restrictions.
 
-  This leads to map suris to wallets in any chain, websites, social or private information, etc. allowing using suris as
+  This allows suris be mapped to wallets in any chain, websites, social or any other source of private information, etc. hence enabling the use of suris as
   an identity service.
 
-- **Full routing**: forget about proxys. The **SUNS Protocol** resolution mechanism will allow to route people
+- **Full routing**: forget about proxys. **SUNS Protocol**'s resolution algorithm will allow the routing 
   to different services on different ports of the same machine without having to relay on a reverse proxy.
 
 - **Load balancing**: the protocol will have built-in support for some balancing algorithms to distribute the load
-  between different servers, so you don't need to pay expensive services for that matter.
+  between different servers. Preventing the need to pay expensive services for that matter.
 
 ## Use cases
 
@@ -59,19 +59,23 @@ characteristics will be:
   [ZK-proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof).
 
 - **Branding**: users will be able to use [TLD](https://en.wikipedia.org/wiki/Top-level_domain) suris like `myBrandName`
-  or `@username` for their personal or professional identities so people will not need to remember if they are `.com`
-  , `.org` ..., they will just need to remember the name of their favorite brands or friends.
+  or `@username` for their personal or professional identities so their customers and providers, friends or relatives, or whoever wants to reach out to them will not need to remember whether their domain is `.com`
+  , `.org` or whichever of the many existing country domains. Instead, they will just need to remember the **name**. Emphasizing on what's really important, and forgetting about senseless and useless endings to domains.
 
-- **Global social information**: users can add their social information to their suris, so anyone can see it, including
-  social networks. This can be useful to update your public name, description or profile picture in all the networks at
-  the same time, just updating your suri.
+  
+::: info Insight
+Imagine a company named "Fake Company, LTD", which is present in multiple countries including UK, USA and Australia.
+Instead of needing domains `fakecompany.co.uk`, `fakecompany.us`, `fakecompany.au`, they will only need the **suri** `fakecompany`
+:::
+
+- **Global social information**: Just by updating their suris, users can update their corporate identity or social media identity.
 
 - **On-chain authorization**: websites, social networks or any service can integrate with the **SUNS Protocol** to allow
-  their users to sing up in their systems with users' suris. Those services can include some information in the suri
+  their users to sign up in their systems with users' suris. Those services can include some information in the suri
   to define that the user is authorized to use their systems, so only providing ownership of the suri will be enough to
   log in again.
 
-- **Service load balancer**: because of the built-in support for balancing algorithms, users will be able to set their
+- **Service load balancer**: thanks to the built-in support for balancing algorithms, users will be able to set their
   services behind a suri instead of paying expensive services.
 
 - **Serve multiple websites on the same machine**: currently we need to use reverse proxies to serve multiple websites
@@ -81,10 +85,10 @@ characteristics will be:
   This feature will not be limited to websites but will be working for any protocol/service.
   :::
 
-- **Subscription models**: companies can deploy their subscription models giving their users a sub suri (e.g.
-  `111.subs.netflix`) charging them for their services using the built-in subscription model. As soon as the user stops
-  paying or the suri expires, it gets reflected in the service access.
+- **Subscription models**: companies can deploy  subscription models giving their users a sub suri (e.g.
+  `111.subs.netflix`) to charge them for their services using the built-in subscription model. As soon as the user stops
+  paying or the suri expires, the subscription is considered ended, and this can be reflected by a limitation to access to the service behind it.
 
-These ideas are just only the beginning, people are free to use and build over the **SUNS Protocol** any way they want.
+These ideas are just only the beginning, people are free to use and build over **SUNS Protocol** any way they want.
 
 Feel free to join us in the [Discord](https://discord.gg/CtzA2kPdA7) to tell us about new ideas and use cases.
