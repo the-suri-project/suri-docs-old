@@ -33,7 +33,7 @@ export default hopeTheme({
     },
     blog: {
         medias: {
-            'Discord': 'https://discord.gg/CtzA2kPdA7',
+            'Discord': 'https://discord.gg/YdutySHbbk',
         },
     },
     plugins: {

@@ -27,7 +27,7 @@ Apart from the previous options, we also offer the possibility of buying the sur
 price. This is the only way of choosing custom names during the booking process.
 
 Finally, we will be dropping giveaways during the whole first phase of the project. Stay tuned
-in [Discord](https://discord.gg/CtzA2kPdA7) to participate!
+in [Discord](https://discord.gg/YdutySHbbk) to participate!
 
 ## Partnership program
 
@@ -37,4 +37,4 @@ one of previous methods. This guarantees some advantage over other users to get 
 
 After some time, all the methods will be available for everyone.
 
-If you are interested in this option, please contact us at [Discord](https://discord.gg/CtzA2kPdA7).
+If you are interested in this option, please contact us at [Discord](https://discord.gg/YdutySHbbk).

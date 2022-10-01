@@ -96,4 +96,4 @@ Instead of needing domains `fakecompany.co.uk`, `fakecompany.us`, `fakecompany.a
 
 These ideas are just only the beginning, people are free to use and build over **SUNS Protocol** any way they want.
 
-Feel free to join us in the [Discord](https://discord.gg/CtzA2kPdA7) to tell us about new ideas and use cases.
+Feel free to join us in the [Discord](https://discord.gg/YdutySHbbk) to tell us about new ideas and use cases.

@@ -28,5 +28,5 @@ weight. Refer to our [roadmap](/en/roadmap#phase-3-real-decentralization) for fu
 
 ::: note
 The structure of the DAO and all its mechanisms will be agreed together with the **Suri** community. You can join us
-on [discord](https://discord.gg/CtzA2kPdA7) to become a part of the community and join the discussion.
+on [discord](https://discord.gg/YdutySHbbk) to become a part of the community and join the discussion.
 :::
