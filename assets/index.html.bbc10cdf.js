@@ -1,6 +1,0 @@
-import{_ as t,o as a,c as o,a as e,b as n}from"./app.2ad33454.js";const s={},i=e("h1",{id:"suri-domains",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#suri-domains","aria-hidden":"true"},"#"),n(" Suri domains")],-1),r=e("p",null,[n("Suri domains, or just suris, are the base of the project. They work as a hierarchy of names in which parents manage their children. The root of the tree is the suri root domain "),e("code",null,"."),n(" and each parent can have multiple children.")],-1),c=e("div",{class:"language-text ext-text"},[e("pre",{class:"language-text"},[e("code",null,`                    .
-             \u250C\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
-           com.           domains.
-     \u250C\u2500\u2500\u2500\u2500\u2500\u2500\u2518        \u250C\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
-solana.com.    suri.domains.     other.domains.
-`)])],-1),d=e("p",null,"Suri domains can be used to represent an entity in the Web3 internet, e.g. a user, a project, a collection, a website, in the end, anything you can think of.",-1),h=[i,r,c,d];function l(u,_){return a(),o("div",null,h)}const p=t(s,[["render",l],["__file","index.html.vue"]]);export{p as default};
