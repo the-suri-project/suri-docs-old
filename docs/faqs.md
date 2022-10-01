@@ -7,15 +7,14 @@ the domains and the protocol.
 
 <FaqBox title="How can I book a suri?">
 
-Suris can be [booked](https://suri.domains/booking) now. You can book a suri solving the challenge of one (or more) of
-the free methods or by directly buying one.
+You can book a suri solving the challenge of one (or more) of the free methods or by directly buying one.
 
 </FaqBox>
 
 <FaqBox title="How can I obtain the NFT corresponding to my booking?">
 
-Once you have completed the booking process, you need to go to your [suri list](https://suri.domains/my-suris) and click
-on any of the `Generate NFT` buttons.
+Once you have completed the booking process, you will need to go to your suri list and click on any of
+the `Generate NFT` buttons.
 
 After that we will require you to sign a transaction to mint the booking NFT so you can receive it in your wallet. This
 process is totally free except for the network fees due to the minting process.
@@ -55,8 +54,8 @@ Of course, anyone can buy any [Top Level][TLD] suri domain and any other domain 
 
 <FaqBox title="When will I be able to buy a Suri domain?">
 
-Suris can be [booked](https://suri.domains/booking) now and will be available for claim/purchase once Phase 2 of the
-project is released. This should happen at some point in Q4 of 2022.
+Suris will be available for booking soon and for claim/purchase once Phase 2 of the project is released. This should
+happen at some point in Q4 of 2022.
 
 </FaqBox>
 
@@ -65,8 +64,8 @@ project is released. This should happen at some point in Q4 of 2022.
 No, expired NFTs have no value other than the one given to them.
 
 We recommend you to burn NFTs to avoid confusion and not to occupy space in your wallet, which can be made by using
-our [burning service](https://suri.domains/burn). Our tool will give you more Sol for closing the accounts than what you
-would obtain by burning them in your wallet or other tools.
+our burning service. Our tool will give you more Sol for closing the accounts than what you would obtain by burning them
+in your wallet or other tools.
 
 </FaqBox>
 
@@ -159,9 +158,8 @@ In short, you must check the SVC (Suri Verification Code).
 **Explanation**
 
 After expiration, the associated NFT will be automatically canceled but this process can take some time. That's why we
-offer the possibility to check the veracity of a NFT through
-the [verification service](https://suri.domains/domain/verify). This website will show you the current NFT with its SVC,
-so:
+offer the possibility to check the veracity of a NFT through the verification service. This website will show you the
+current NFT with its SVC, so:
 
 ::: danger
 NEVER BUY A NFT WITH A DIFFERENT SVC THAN THE ONE SHOWN IN THE VERIFICATION WEBSITE
