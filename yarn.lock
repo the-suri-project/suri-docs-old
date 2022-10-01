@@ -4730,6 +4730,13 @@ vuepress-plugin-reading-time2@2.0.0-beta.104:
   dependencies:
     vuepress-shared "2.0.0-beta.104"
 
+vuepress-plugin-remove-html-extension@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-remove-html-extension/-/vuepress-plugin-remove-html-extension-0.1.0.tgz#e24f2d7812f7bb99b47646a47df83f7826f12b4c"
+  integrity sha512-WZG4REYh45lTpCCj1RJ5rrXob9wvX3tdl1NsqY52MI7dp3eR2b+4xlKrcRlEOodvsWZXXWUJDNXtP87mjuSnuA==
+  dependencies:
+    "@vuepress/core" "2.0.0-beta.51"
+
 vuepress-plugin-sass-palette@2.0.0-beta.104:
   version "2.0.0-beta.104"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.104.tgz#5b3f65a624b32bf52efa089ff1ce80990c7853c3"
