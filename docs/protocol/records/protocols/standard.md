@@ -15,18 +15,35 @@ with others.
 
 ## Text protocols
 
+Defines data in a textual format:
+
 | Name     | Pattern                | Description                                |
 |----------|------------------------|--------------------------------------------|
 | Text     | `text(STRING)`         | Plain textual data encoded in UTF-8 format |
 | DNS text | `dns+txt(DOMAIN_NAME)` | A `TXT` DNS record                         |
 
-## Data protocols
+## Data protocol
+
+Defines data in a binary format:
 
 | Name  | Pattern       | Description       |
 |-------|---------------|-------------------|
 | Bytes | `bytes(DATA)` | Plain binary data |
 
+## Meta protocol
+
+These protocols add meta information to the protocol stack, it SHOULD be used at the end:
+
+| Name       | Pattern                          | Description                        |
+|------------|----------------------------------|------------------------------------|
+| Metadata   | `meta(key: value, key2: value2)` | Defines a list of key-value pairs. |
+| Meta flags | `meta+flags(flag1, flag2)`       | Defines a list of flags.           |
+
+For example, to define the content of the record data as png: `bytes(IMAGE_DATA)<meta("mime": "image/png")`.
+
 ## Address protocols
+
+To define an address in a specific blockchain:
 
 | Name     | Pattern                      | Description         |
 |----------|------------------------------|---------------------|
@@ -36,15 +53,16 @@ with others.
 | Arweave  | `arwv+addr(ARWEAVE_ADDRESS)` | An Arweave address  |
 
 ::: note Insight
-Any other Address protocol should follow the same pattern to follow the standard.
+Any other _Address_ protocol should follow the same pattern to follow the standard, for
+example: `MY_CHAIN+addr(ADDRESS)`.
 :::
 
 ## Network protocols
 
-| Name          | Pattern                     | Description                                          |
-|---------------|-----------------------------|------------------------------------------------------|
-| [IPv4]        | `ip4(IPV4_ADDRESS)`         | Internet Protocol version 4                          |
-| [IPv6]        | `ip6(IPV6_ADDRESS)`         | Internet Protocol version 6                          |
+| Name          | Pattern                     | Description                                    |
+|---------------|-----------------------------|------------------------------------------------|
+| [IPv4]        | `ip4(IPV4_ADDRESS)`         | Internet Protocol version 4                    |
+| [IPv6]        | `ip6(IPV6_ADDRESS)`         | Internet Protocol version 6                    |
 | [DNS]         | `dns(DOMAIN_NAME)`          | A DNS record resolvable to an IPv4 or IPv6     |
 | Network Alias | `net-alias(SOLANA_ADDRESS)` | An alias for a network address in another Suri |
 
@@ -60,17 +78,17 @@ Any other Address protocol should follow the same pattern to follow the standard
 
 ## Application protocols
 
-| Name    | Pattern                                                 | Description                            |
-|---------|---------------------------------------------------------|----------------------------------------|
-| [FTP]   | `ftp < TCP_PROTOCOL`                                    | File Transfer Protocol                 |
-| [HTTP]  | `http < TCP_PROTOCOL` <br/> `http(PATH) < TCP_PROTOCOL` | The Hypertext Transfer Protocol        |
-| [HTTPS] | `http < TLS_PROTOCOL` <br/> `http(PATH) < TLS_PROTOCOL` | The Hypertext Transfer Protocol Secure |
-| [WS]    | `ws < TCP_PROTOCOL` <br/> `ws(PATH) < TCP_PROTOCOL`     | The WebSocket Protocol                 |
-| [WSS]   | `ws < TLS_PROTOCOL` <br/> `ws(PATH) < TLS_PROTOCOL`     | The WebSocket Protocol Secure          |
-| [SSH]   | `ssh(USERNAME) < TCP_PROTOCOL`                          | The Secure Shell protocol              |
-| [IMAP]  | `imap < TCP_PROTOCOL`                                   | The Internet Message Access Protocol   |
-| [POP3]  | `pop3 < TCP_PROTOCOL`                                   | The Post Office Protocol               |
-| [SMTP]  | `smtp < TCP_PROTOCOL`                                   | The Simple Mail Transfer Protocol      |
+| Name    | Pattern                                              | Description                            |
+|---------|------------------------------------------------------|----------------------------------------|
+| [FTP]   | `ftp < TCP_PROTOCOL`                                 | File Transfer Protocol                 |
+| [HTTP]  | `http < TCP_PROTOCOL` or `http(PATH) < TCP_PROTOCOL` | The Hypertext Transfer Protocol        |
+| [HTTPS] | `http < TLS_PROTOCOL` or `http(PATH) < TLS_PROTOCOL` | The Hypertext Transfer Protocol Secure |
+| [WS]    | `ws < TCP_PROTOCOL` or `ws(PATH) < TCP_PROTOCOL`     | The WebSocket Protocol                 |
+| [WSS]   | `ws < TLS_PROTOCOL` or `ws(PATH) < TLS_PROTOCOL`     | The WebSocket Protocol Secure          |
+| [SSH]   | `ssh(USERNAME) < TCP_PROTOCOL`                       | The Secure Shell protocol              |
+| [IMAP]  | `imap < TCP_PROTOCOL`                                | The Internet Message Access Protocol   |
+| [POP3]  | `pop3 < TCP_PROTOCOL`                                | The Post Office Protocol               |
+| [SMTP]  | `smtp < TCP_PROTOCOL`                                | The Simple Mail Transfer Protocol      |
 
 ## Blockchain protocols
 
@@ -91,25 +109,27 @@ Any other blockchain protocol should follow the same pattern to follow the stand
 
 These protocols gives data protocol a meaning.
 
-| Name                | Pattern                                                    | Description                                            |
-|---------------------|------------------------------------------------------------|--------------------------------------------------------|
-| MailTo              | `mailto < TEXT_PROTOCOL`                                   | A public email for the suri                            |
-| Wallet              | `wallet < BLOCKCHAIN_PROTOCOL` <br /> `< ADDRESS_PROTOCOL` | A public wallet for the suri                           |
-| Wallet              | `owner+name < TEXT_PROTOCOL`                               | Defines suri owner's name                              |
-| Website             | `owner+web < HTTP_PROTOCOL`                                | Defines suri owner's website                           |
-| Suri Alias          | `suri+alias(SOLANA_ADDRESS)`                               | Defines a bidirectional relationship between two suris |
-| Profile Name        | `profile+name < TEXT_PROTOCOL`                             | The public name used for social networks               |
-| Profile Description | `profile+desc < TEXT_PROTOCOL`                             | The public description used for social networks        |
-| Profile Image       | `profile+pic < HTTP_PROTOCOL`                              | The public profile picture used for social networks    |
+| Name                | Pattern                                           | Description                                            |
+|---------------------|---------------------------------------------------|--------------------------------------------------------|
+| MailTo              | `mailto < TEXT_PROTOCOL`                          | A public email for the suri                            |
+| Wallet              | `wallet < BLOCKCHAIN_PROTOCOL < ADDRESS_PROTOCOL` | A public wallet for the suri                           |
+| Wallet              | `owner+name < TEXT_PROTOCOL`                      | Defines suri owner's name                              |
+| Website             | `owner+web < HTTP_PROTOCOL`                       | Defines suri owner's website                           |
+| Suri Alias          | `suri+alias(SOLANA_ADDRESS)`                      | Defines a bidirectional relationship between two suris |
+| Profile Name        | `profile+name < TEXT_PROTOCOL`                    | The public name used for social networks               |
+| Profile Description | `profile+desc < TEXT_PROTOCOL`                    | The public description used for social networks        |
+| Profile Image       | `profile+pic < HTTP_PROTOCOL`                     | The public profile picture used for social networks    |
 
 ## Examples
 
 Here you have different examples of a suri records:
 
-- **Web3 website definition using HTTPS**: `http>tls>tcp(443)>ipv4()`
-- **Web2 website definition using**: `http>tls>tcp(443)>dns(suri.domains)`
-- **Solana wallet**: `wallet>sol>sol+addr(<address>)`
-- **Other blockchain wallet**: `wallet>CHAIN_NAME>bytes(ADDRESS)`
+- **Web3 website definition using HTTPS**: `http<tls<tcp(443)<ipv4()`
+- **Web2 website definition using**: `http<tls<tcp(443)<dns(suri.domains)`
+- **Solana wallet**: `wallet<sol<sol+addr(ADDRESS)`
+- **Other blockchain wallet**:
+    - `wallet<CHAIN_NAME<CHAIN_NAME+addr(ADDRESS)`
+    - or `wallet<CHAIN_NAME<bytes(ADDRESS)`
 
 [IPv4]: https://en.wikipedia.org/wiki/IPv4
 

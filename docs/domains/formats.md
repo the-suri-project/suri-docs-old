@@ -1,119 +1,76 @@
 # Suri domain formats
 
-The Suris are defined by a series of names separated by dots `.`. Those names are
-called _level entries_ because each of them belongs to a specific level, starting
-the count from the last one.
+Suris are defined by a series of names separated by dots `.`. Those names are called _level entries_ because each of
+them belongs to a specific level, being the left-most the highest level.
 
 ```:no-line-numbers
-   Specificity  
-+ ◄──────────── -
-docs.suri.domains
-─┬── ─┬── ─┬─────
- │    │    └► 1st level
+   Specificity
++ ────────────► -
+suri.domains.docs
+─┬── ─┬───── ─┬──
+ │    │       └► 3rd level
  │    └► 2nd level
- └► 3rd level
+ └► 1st level
 ```
 
-The level of a whole Suri is equal to the most specific level entry, i.e. the count
-of level entries. In the previous example, the Suri `www.suri.domains` has a level
-of 3.
-
-When a Suri has a level of 1, it is called **TLS** or _Top Level Suri_ the same way
-**TLD** or _Top Level Domain_ is used for web2 domains.
-
 ::: note Insight
-The root Suri is the only one that has level 0, and it's represented by a single dot
-`.`
+This works in the reverse order of the DNS hierarchy, where the deepest level is writen first. For example, the DNS
+domain `docs.suri.domains` would be written as `domains.suri.docs` in suri.
 :::
+
+The level of a whole Suri is equal to the most specific level entry, or the count of level entries. In the previous
+example, the Suri `suri.domains.docs` has a level of 3.
+
+When a Suri has a level of 1, it is called **TLD** suri or _Top Level Domain_ suri.
 
 ## Canonical format
 
-The canonical format expresses the Suri level entries starting from the most specific
-to the least one (left to right) being each level followed by a dot `.`.
+The canonical format expresses the suri level entries starting from the most generic one to the most specific one (left
+to right) separating each level by a dot `.`. The only exception is the root suri which is represented by a single
+dot `.`.
 
 - `.` - root
-- `com.`
-- `domains.`
-- `suri.domains.`
-- `docs.suri.domains.`
+- `com`
+- `domains`
+- `suri.domains`
+- `docs.suri.domains`
 
 ::: details Formal definition
 
 ```:no-line-numbers
-<canonical_suri> := <level_entry>+ | '.'
-   <level_entry> := <name> '.'
+<canonical_suri> := <root> | <suri>
+          <root> := '.'
+          <suri> := <name> ('.' <name>)*
           <name> := <name_char>+
      <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
 ```
 
 :::
 
-## Standard format
-
-The standard format is the same as the canonical but making the final dot `'.'` optional.
-This is the usual format used across the whole internet to express web2 domains.
-
-- `.` - root is equal to the canonical format.
-- `suri.domains` becomes `suri.domains.` in the canonical format.
-- `suri.domains.` is equal to the canonical format.
-
-::: details Formal definition
-
-```:no-line-numbers
-# Format:
-<standard_suri> := (<name> <level_entry>*)? '.'?
-  <level_entry> := '.' <name>
-         <name> := <name_char>+
-    <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
-```
-
-:::
-
 ## Tagged format
 
-Finally, a specific set of Suris can be expressed in the tagged format.
-This format consist in reversing the Suri, remove the initial 2 levels and add a
-symbol as prefix. There rules can only be applied to:
+Finally, tagged format consist of a suri prefixed by a symbol, called tags, that gives them an extra meaning. Tagged
+suris have
+an equivalent version in the canonical format, therefore you can use any of both to reference the suri. The available
+tags are:
 
-| Name           | Symbol | Tagged Form        | Canonical Form        |
-|----------------|:------:|--------------------|-----------------------|
-| Mention        |   @    | `@<reversed_suri>` | `<suri>.mention.tag`  |
-| Hash / Hashtag |   #    | `#<reversed_suri>` | `<suri>.hash.tag`     |
-| Cash / Cashtag |   $    | `$<reversed_suri>` | `<suri>.cash.tag`     |
-| Anchor         |   &    | `&<reversed_suri>` | `<suri>.anchor.tag`   |
-| Alert          |   !    | `!<reversed_suri>` | `<suri>.alert.tag`    |
-| Question       |   ?    | `?<reversed_suri>` | `<suri>.question.tag` |
+| Name           | Symbol | Tagged Form | Canonical Form        |
+|----------------|:------:|-------------|-----------------------|
+| Mention        |   @    | `@<suri>`   | `tag.mention.<suri>`  |
+| Hash / Hashtag |   #    | `#<suri>`   | `tag.hash.<suri>`     |
+| Cash / Cashtag |   $    | `$<suri>`   | `tag.cash.<suri>`     |
+| Anchor         |   &    | `&<suri>`   | `tag.anchor.<suri>`   |
+| Alert          |   !    | `!<suri>`   | `tag.alert.<suri>`    |
+| Question       |   ?    | `?<suri>`   | `tag.question.<suri>` |
 
-The reason to reverse the Suri is that in standard Suris we want to emphasize the
-most specific entry level due to it is the focus of our action. In the Suri
-`docs.suri.domains` we want to emphasize the `docs` part because that is the
-place we want to navigate to.
-
-However, in the tagged format we want to emphasize the least specific entry level
-because that one represents the topic of the action. For example, for `@suri.docs`
-we emphasize the `suri` entry level which is the digital identity of the `docs`
-section we want to access. This method improves the readability of Suris and
-emphasizes the digital identity behind services.
-
-::: note Note
-The level of a tagged Suri is always 2 + the number of level entries.
-:::
-
-Examples:
-
-- `@a.b.c` becomes `c.b.a.mention.tag.` in the canonical format.
-- `#a.b.c` becomes `c.b.a.hash.tag.` in the canonical format.
-- `$a.b.c` becomes `c.b.a.cash.tag.` in the canonical format.
-- `&a.b.c` becomes `c.b.a.anchor.tag.` in the canonical format.
-- `!a.b.c` becomes `c.b.a.alert.tag.` in the canonical format.
-- `?a.b.c` becomes `c.b.a.question.tag.` in the canonical format.
+For example: `@myUserName.twitter` is equivalent to `tag.mention.myUserName.twitter`.
 
 ::: details Formal definition
 
 ```:no-line-numbers
-<tagged_suri> := <symbol> <name> <level_entry>*
-     <symbol> := one of [@#&$+-*]
-<level_entry> := '.' <name>
+<tagged_suri> := <tag> <suri>
+        <tag> := one of [@#&$+-*]
+       <suri> := <name> ('.' <name>)*
        <name> := <name_char>+
   <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
 ```
