@@ -6,7 +6,7 @@ td > code {
 
 # Standard Protocols
 
-Here is the list of the protocols that are natively supported in **Suri**. They are classified according to its type.
+Here is a list of protocols which are natively supported in **Suri**. They are classified according to its type.
 
 ::: note Note
 Most of the protocols do not mean anything on their own, like text or data protocols, but they need to be combined

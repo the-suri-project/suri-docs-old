@@ -11,7 +11,7 @@ will be able to buy these suris for their own use or for resale.
 **Suri** will provide a **Smart Contract** on Solana as a groundwork for all owners who buy domains to set their own
 sale conditions for their children (allowed names, allowance period, resellability, payment model, ...).
 
-Owners can verify the claim to the domains they hold with a [NFT](/en/domains/nfts), which will be granted during the
+Owners can verify the claim to the domains they hold with a [NFT](/domains/nfts), which will be granted during the
 buying process.
 
 ::: note Insight

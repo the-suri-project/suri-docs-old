@@ -18,22 +18,21 @@ This works in the reverse order of the DNS hierarchy, where the deepest level is
 domain `docs.suri.domains` would be written as `domains.suri.docs` in suri.
 :::
 
-The level of a whole Suri is equal to the most specific level entry, or the count of level entries. In the previous
+The level of an entire Suri is equal to the most specific level entry, or the count of level entries. In the previous
 example, the Suri `suri.domains.docs` has a level of 3.
 
 When a Suri has a level of 1, it is called **TLD** suri or _Top Level Domain_ suri.
 
 ## Canonical format
 
-The canonical format expresses the suri level entries starting from the most generic one to the most specific one (left
-to right) separating each level by a dot `.`. The only exception is the root suri which is represented by a single
-dot `.`.
+In canonical format, Suri level entries are displayed starting from the highest level on the left, to the lowest on the
+right being each level followed by a dot `.` but the last one.
 
 - `.` - root
 - `com`
 - `domains`
 - `suri.domains`
-- `docs.suri.domains`
+- `suri.domains.docs`
 
 ::: details Formal definition
 
@@ -50,9 +49,8 @@ dot `.`.
 ## Tagged format
 
 Finally, tagged format consist of a suri prefixed by a symbol, called tags, that gives them an extra meaning. Tagged
-suris have
-an equivalent version in the canonical format, therefore you can use any of both to reference the suri. The available
-tags are:
+suris have an equivalent version in the canonical format, therefore you can use any of both to reference the suri. The
+available tags are:
 
 | Name           | Symbol | Tagged Form | Canonical Form        |
 |----------------|:------:|-------------|-----------------------|

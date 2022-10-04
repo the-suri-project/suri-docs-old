@@ -170,7 +170,7 @@ NEVER BUY A NFT WITH A DIFFERENT SVC THAN THE ONE SHOWN IN THE VERIFICATION WEBS
 <FaqBox title="Can I use the Suri's on-chain program directly?">
 
 Yes, you will be able to use the on-chain program directly in the future through our list
-of [SDKs](/en/development/sdk/), but you need to wait until the Phase 2 of the project is released.
+of [SDKs](/development/sdk/), but you need to wait until the Phase 2 of the project is released.
 
 </FaqBox>
 
