@@ -36,7 +36,7 @@ used to navigate the internet. Of course, it is not just a replacement, it is a 
 main features will be:
 
 - **Decentralized**: the protocol will be working fully on-chain, so there will be no central authority (say goodbye to
-  IEEE). Moreover, each parent will have the rights to manage its direct children.
+  ICANN). Moreover, each parent will have the rights to manage its direct children.
 
 - **Subscription-based model**: suris will pay their parents in order to keep active using a subscription payment.
 
@@ -90,10 +90,10 @@ Instead of needing domains `fakecompany.co.uk`, `fakecompany.us`, `fakecompany.a
   :::
 
 - **Subscription models**: companies can deploy subscription models giving their users a sub suri (e.g.
-  `111.subs.netflix`) to charge them for their services using the built-in subscription model. As soon as the user stops
+  `netflix.subs.111`) to charge them for their services using the built-in subscription model. As soon as the user stops
   paying or the suri expires, the subscription is considered ended, and this can be reflected by a limitation to access
   to the service behind it.
 
 These ideas are just only the beginning, people are free to use and build over **SUNS Protocol** any way they want.
 
-Feel free to join us in the [Discord](https://discord.gg/CtzA2kPdA7) to tell us about new ideas and use cases.
+Feel free to join us in the [Discord](https://discord.gg/YdutySHbbk) to tell us about new ideas and use cases.

@@ -19,12 +19,12 @@ docs.suri.domains
 
 ## Why Suri?
 
-Web2 based DNS service needs a domain under the ownership of [IEEE](https://www.ieee.org/) to work. Furthermore, the
-current DNS standard is limited in its usability, as it can only translate domains into a constrained and finite
-set of protocols.
+Web2 based DNS service needs a domain under the ownership of [ICANN](https://www.icann.org/) or any other big company
+to work. Furthermore, the current DNS standard is limited in its usability, as it can only translate domains into a
+constrained and finite set of protocols.
 
 ::: note Note
-Only authorized IEEE customers are allowed to distribute the domain names under their control. Moreover, they restrict
+Only authorized customers are allowed to distribute the domain names under their control. Moreover, they can restrict
 the access to most of the _Top Level Domains_.
 :::
 

@@ -1,6 +1,7 @@
 import {defineUserConfig} from 'vuepress';
 import theme from './theme.js';
 import * as path from 'path';
+import {removeHtmlExtensionPlugin} from 'vuepress-plugin-remove-html-extension';
 
 export default defineUserConfig({
     lang: 'en-US',
@@ -55,7 +56,7 @@ export default defineUserConfig({
         content: 'https://docs.suri.domains/external-link-image.png',
     }]],
 
-    plugins: [],
+    plugins: [removeHtmlExtensionPlugin()],
 
     alias: {
         '@theme-hope/modules/navbar/components/RepoLink.js': path.resolve(__dirname, './components/SocialLinks.js'),

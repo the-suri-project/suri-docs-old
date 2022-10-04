@@ -8,7 +8,7 @@ Here you will find the explanations of each:
 The first phase is meant to test the viability of the project and to validate the initial assumptions made during
 the development.
 
-For that we have designed a [booking](https://suri.domains/bookings) system that will allow people to book one or more
+For that we have designed a booking system that will allow people to book one or more
 of their favorite suris giving us some initial statistics and feedback about how the system works, scalability,
 etc. apart from receiving initial feedback from the community.
 

@@ -8,7 +8,10 @@ export const enSidebar = sidebar({
     }, {
         text: '🌐 Suri Domains',
         link: 'domains/',
-        children: ['domains/tagged', {
+        children: [{
+            text: 'Top Level Domains',
+            link: 'domains/tld',
+        }, 'domains/tagged', {
             text: 'Formats',
             link: 'domains/formats',
         }, 'domains/bookings', {

@@ -24,9 +24,9 @@ one people wants to allow them to have.
 
 **Suri** will become a DAO (_Decentralized Autonomous Organization_) in the future in order to truly decentralize
 the **Suri** organization. This DAO will probably be ruled by a democratic system using a governance token as vote
-weight. Refer to our [roadmap](/en/roadmap#phase-3-real-decentralization) for further information on what's to come.
+weight. Refer to our [roadmap](/roadmap#phase-3-real-decentralization) for further information on what's to come.
 
 ::: note
 The structure of the DAO and all its mechanisms will be agreed together with the **Suri** community. You can join us
-on [discord](https://discord.gg/CtzA2kPdA7) to become a part of the community and join the discussion.
+on [discord](https://discord.gg/YdutySHbbk) to become a part of the community and join the discussion.
 :::

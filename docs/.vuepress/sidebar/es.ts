@@ -8,7 +8,10 @@ export const esSidebar = sidebar({
     }, {
         text: '🌐 Dominios Suri',
         link: 'domains/',
-        children: ['domains/tagged', {
+        children: [{
+            text: 'Dominios de primer nivel',
+            link: 'domains/tld',
+        }, 'domains/tagged', {
             text: 'Formatos',
             link: 'domains/formats',
         }, 'domains/bookings', {
