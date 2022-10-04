@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,d as n,r as c}from"./app.36728e2d.js";const r={};function s(_,m){const e=c("TeamPage");return a(),o("div",null,[n(e,{lang:"es"})])}const f=t(r,[["render",s],["__file","team.html.vue"]]);export{f as default};
