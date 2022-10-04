@@ -5,11 +5,11 @@ e.g. `@myUserName.twitter`, `#subject`, `$USDC`, etc.
 
 ::: note Insight
 Tagged domains are just a special representation of an equivalent canonical suri, thus they do not have any special
-meaning to the system or  specifically built-in added functionalities.
+meaning to the system or specifically built-in added functionalities.
 :::
 
-The idea behind this representation is to ***emphasize an identity or a subject***, which is more relevant than the rest of
-the suri. This is especially useful for suris belonging to users or brands.
+The idea behind this representation is to ***emphasize an identity or a subject***, which is more relevant than the rest
+of the suri. This is especially useful for suris belonging to users or brands.
 
 Some examples are:
 
@@ -25,6 +25,8 @@ Some examples are:
 If instead of using a tagged suri we use a regular suri, we would have ended with `username.twitter`
 or `MY_TOKEN.pricing`, which are perfectly fine but do not emphasize the actual subject of the action.
 
-You can check the full [definition](/en/domains/formats#tagged-format) and all tagged types in the following section.
+You can check the full [definition](/domains/formats#tagged-format) and all tagged types in the following section.
 
-As a final note, bear in mind that thanks to SUNS protocol's technology (Solana on-chain) users can store their public information as part of a suri, which can then be used to perform simultaneous updates on all social network profiles. This feature is, of course, also included for tagged suris
+As a final note, bear in mind that thanks to SUNS protocol's technology (Solana on-chain) users can store their public
+information as part of a suri, which can then be used to perform simultaneous updates on all social network profiles.
+This feature is, of course, also included for tagged suris.

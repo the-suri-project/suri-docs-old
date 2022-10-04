@@ -23,9 +23,9 @@ A list of benefits coming from this infrastructure project is found below:
 - **Global suris**: not geographically limited. Forget about asking for permission to use a domain name.
 
 - **Children management**: parents have the rights to manage his children, no one else will decide for you unless you
-  want to approve an [authority](/en/protocol/authorities/).
+  want to approve an [authority](/protocol/authorities/).
 
-- **All your content in your suri**: under a single suri, an owner can [register](/en/protocol/records/) different
+- **All your content in your suri**: under a single suri, an owner can [register](/protocol/records/) different
   data with multiple purposes (website links, social media profiles, crypto wallets, etc.). This will enable users to
   build _Digital Identity Services_ over the protocol.
 

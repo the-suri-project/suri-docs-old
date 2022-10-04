@@ -33,7 +33,7 @@ including [Top Level Domains][TLD], without the need to be a notable individual/
 Moreover, **Suri** supports the [Unicode](https://unicode.org/) standard, therefore you can acquire your domains in your
 own language, not restricting to the **ASCII characters** currently used by Web2's DNS.
 
-Asides, thanks to the versatility in Solana's blockchain, the [use cases](/en/use-cases) of **Suri** will grow
+Asides, thanks to the versatility in Solana's blockchain, the [use cases](/use-cases) of **Suri** will grow
 exponentially, as users will be able to register any protocol in their suris, not just the conventional ones.
 
 ## Why Solana?

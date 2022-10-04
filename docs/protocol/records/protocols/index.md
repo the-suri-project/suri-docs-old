@@ -13,8 +13,9 @@ it would be defined as: `http<tls<tcp(443)<ipv4(0.0.0.0)`. This corresponds to t
 1.     [Network level] ipv4(0.0.0.0)
 ```
 
-In the [following section](/protocol/records/protocols/standard/) you can find the list of protocols with native support in **Suri** but anyone can use any
-custom protocol and combine them with other protocols in order to build a custom stack.
+In the [following section](/protocol/records/protocols/standard) you can find the list of protocols with native support
+in **Suri** but anyone can use any custom protocol and combine them with other protocols in order to build a custom
+stack.
 
 For example, social networks can use the following protocol stacks to access users' public information:
 
