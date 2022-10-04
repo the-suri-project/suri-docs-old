@@ -11,7 +11,7 @@ suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 ```
 
 The protocols are expressed by indicating the highest level first to facilitate the
-searching process. Moreover, each protocol is followed by an optional argument in
+search process. Moreover, each protocol is followed by an optional argument in
 parentheses in case the protocol needs it.
 
 ```:no-line-numbers
@@ -51,7 +51,7 @@ The final value of a record is the result of combining the value of each protoco
 
 ## Signature
 
-All records have a signature that identifies them and allows to classify them. The signature is the list of protocol
+All records have a signature which allows them to be identified and classified. The signature is the list of protocol
 names without arguments.
 
 ```:no-line-numbers

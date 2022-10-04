@@ -1,7 +1,7 @@
 # SUNS Protocol
 
-The **SUNS Protocol** is an on-chain program in Solana that allows users to operate with [suris](/en/domains/). Its name
-comes from the acronym **SU**ri **N**ame **S**ervice. It is a decentralized alternative to the current DNS system, which
+**SUNS Protocol** is an on-chain program in Solana that allows users to operate with [suris](/en/domains/). Its name
+comes from the acronym **SU**ri **N**ame **S**ervice. It is a decentralized alternative to its web2 counterpart: the DNS system, which
 is controlled by a few big companies.
 
 The protocol stores on-chain the suris' information, their configuration, how to [pay](/en/protocol/subscription)
