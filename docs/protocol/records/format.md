@@ -29,12 +29,11 @@ suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 <canonical_record> := <canonical_suri> ':' <protocol_list>
    <protocol_list> := <protocol> ('<' <protocol>)*
         <protocol> := <protocol_name> <protocol_arg>?
-   <protocol_name> := <name_char>+
-       <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
+   <protocol_name> := <name_char>+ ([-+] <name_char>+)*
+       <name_char> := <unicode_xid_body> | <unicode_number>
     <protocol_arg> := '(' <escaped_text> ')'
     <escaped_text> := (<any char but [\n\r\t\s\\\)\|]> | <escape>)+
           <escape> := '\\' [\\nrts\)\|]
-            <name> := <name_char>+
 ```
 
 :::

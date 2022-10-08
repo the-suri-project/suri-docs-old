@@ -70,7 +70,7 @@ For example: `@myUserName.twitter` is equivalent to `tag.mention.myUserName.twit
         <tag> := one of [@#&$+-*]
        <suri> := <name> ('.' <name>)*
        <name> := <name_char>+
-  <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
+  <name_char> := "-" | "◎" | <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
 ```
 
 :::
