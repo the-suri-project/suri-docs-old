@@ -40,7 +40,7 @@ right being each level followed by a dot `.` but the last one.
 <canonical_suri> := <root> | <suri>
           <root> := '.'
           <suri> := <name> ('.' <name>)*
-          <name> := <name_char>+
+          <name> := <name_char>+ ("-"+ <name_char>+)*
      <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
 ```
 
@@ -60,6 +60,10 @@ available tags are:
 | Anchor         |   &    | `&<suri>`   | `tag.anchor.<suri>`   |
 | Alert          |   !    | `!<suri>`   | `tag.alert.<suri>`    |
 | Question       |   ?    | `?<suri>`   | `tag.question.<suri>` |
+|                |        |             |                       |
+| Bitcoin        |   ₿    | `₿<suri>`   | `tag.btc.<suri>`      |
+| Ethereum       |   ⧫    | `⧫<suri>`   | `tag.eth.<suri>`      |
+| Solana         |   ◎    | `◎<suri>`   | `tag.sol.<suri>`      |
 
 For example: `@myUserName.twitter` is equivalent to `tag.mention.myUserName.twitter`.
 
@@ -67,10 +71,10 @@ For example: `@myUserName.twitter` is equivalent to `tag.mention.myUserName.twit
 
 ```:no-line-numbers
 <tagged_suri> := <tag> <suri>
-        <tag> := one of [@#&$+-*]
+        <tag> := one of [@#$&!?₿⧫◎]
        <suri> := <name> ('.' <name>)*
-       <name> := <name_char>+
-  <name_char> := "-" | "◎" | <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
+       <name> := <name_char>+ ("-"+ <name_char>+)*
+  <name_char> := <unicode_xid_body> | <unicode_number> | <emoji_pictographic> | <emoji_component>
 ```
 
 :::
