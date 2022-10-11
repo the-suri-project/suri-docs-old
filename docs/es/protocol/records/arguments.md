@@ -1,5 +1,7 @@
-# Arguments de los registros
+# Argumentos de los registros
 
-::: tip Traducción
-Este documento está en proceso de ser traducido. Mientras puede revisar el documento original en inglés.
+Los registros aceptarán cualquier tipo de valor como argumento para los protocolos, incluyendo información encriptada.
+
+::: warning Fase 2
+Más información estará disponible en la Fase 2 del Proyecto Suri.
 :::
