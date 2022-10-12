@@ -39,18 +39,18 @@ These protocols add meta information to the protocol stack, it SHOULD be used at
 | Metadata   | `meta(key: value, key2: value2)` | Defines a list of key-value pairs. |
 | Meta flags | `meta+flags(flag1, flag2)`       | Defines a list of flags.           |
 
-For example, to define the content of the record data as png: `bytes(IMAGE_DATA)<meta("mime": "image/png")`.
+For example, to define the content of the record data as `.png` image: `bytes(IMAGE_DATA)<meta("mime": "image/png")`.
 
 ## Address protocols
 
 To define an address in a specific blockchain:
 
-| Name     | Pattern                      | Description         |
-|----------|------------------------------|---------------------|
-| Solana   | `sol+addr(SOLANA_ADDRESS)`   | A Solana address    |
-| Ethereum | `eth+addr(ETHEREUM_ADDRESS)` | An Ethereum address |
-| Bitcoin  | `btc+addr(BITCOIN_ADDRESS)`  | A Bitcoin address   |
-| Arweave  | `arwv+addr(ARWEAVE_ADDRESS)` | An Arweave address  |
+| Name     | Pattern                      | Description           |
+|----------|------------------------------|-----------------------|
+| Solana   | `sol+addr(SOLANA_ADDRESS)`   | A [Solana] address    |
+| Ethereum | `eth+addr(ETHEREUM_ADDRESS)` | An [Ethereum] address |
+| Bitcoin  | `btc+addr(BITCOIN_ADDRESS)`  | A [Bitcoin] address   |
+| Arweave  | `arwv+addr(ARWEAVE_ADDRESS)` | An [Arweave] address  |
 
 ::: note Insight
 Any other _Address_ protocol should follow the same pattern to follow the standard, for
@@ -78,17 +78,17 @@ example: `MY_CHAIN+addr(ADDRESS)`.
 
 ## Application protocols
 
-| Name    | Pattern                                              | Description                            |
-|---------|------------------------------------------------------|----------------------------------------|
-| [FTP]   | `ftp < TCP_PROTOCOL`                                 | File Transfer Protocol                 |
-| [HTTP]  | `http < TCP_PROTOCOL` or `http(PATH) < TCP_PROTOCOL` | The Hypertext Transfer Protocol        |
-| [HTTPS] | `http < TLS_PROTOCOL` or `http(PATH) < TLS_PROTOCOL` | The Hypertext Transfer Protocol Secure |
-| [WS]    | `ws < TCP_PROTOCOL` or `ws(PATH) < TCP_PROTOCOL`     | The WebSocket Protocol                 |
-| [WSS]   | `ws < TLS_PROTOCOL` or `ws(PATH) < TLS_PROTOCOL`     | The WebSocket Protocol Secure          |
-| [SSH]   | `ssh(USERNAME) < TCP_PROTOCOL`                       | The Secure Shell protocol              |
-| [IMAP]  | `imap < TCP_PROTOCOL`                                | The Internet Message Access Protocol   |
-| [POP3]  | `pop3 < TCP_PROTOCOL`                                | The Post Office Protocol               |
-| [SMTP]  | `smtp < TCP_PROTOCOL`                                | The Simple Mail Transfer Protocol      |
+| Name    | Pattern                                              | Description                        |
+|---------|------------------------------------------------------|------------------------------------|
+| [FTP]   | `ftp < TCP_PROTOCOL`                                 | File Transfer Protocol             |
+| [HTTP]  | `http < TCP_PROTOCOL` or `http(PATH) < TCP_PROTOCOL` | Hypertext Transfer Protocol        |
+| [HTTPS] | `http < TLS_PROTOCOL` or `http(PATH) < TLS_PROTOCOL` | Hypertext Transfer Protocol Secure |
+| [WS]    | `ws < TCP_PROTOCOL` or `ws(PATH) < TCP_PROTOCOL`     | WebSocket Protocol                 |
+| [WSS]   | `ws < TLS_PROTOCOL` or `ws(PATH) < TLS_PROTOCOL`     | WebSocket Protocol Secure          |
+| [SSH]   | `ssh(USERNAME) < TCP_PROTOCOL`                       | Secure Shell protocol              |
+| [IMAP]  | `imap < TCP_PROTOCOL`                                | Internet Message Access Protocol   |
+| [POP3]  | `pop3 < TCP_PROTOCOL`                                | Post Office Protocol               |
+| [SMTP]  | `smtp < TCP_PROTOCOL`                                | Simple Mail Transfer Protocol      |
 
 ## Blockchain protocols
 
@@ -124,7 +124,7 @@ These protocols gives data protocol a meaning.
 
 Here you have different examples of a suri records:
 
-- **Web3 website definition using HTTPS**: `http<tls<tcp(443)<ipv4()`
+- **Web3 website definition using HTTPS**: `http<tls<tcp(443)<ipv4(127.0.0.1)`
 - **Web2 website definition using**: `http<tls<tcp(443)<dns(suri.domains)`
 - **Solana wallet**: `wallet<sol<sol+addr(ADDRESS)`
 - **Other blockchain wallet**:

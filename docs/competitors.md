@@ -10,14 +10,14 @@ beyond the current Web2's [DNS](https://en.wikipedia.org/wiki/Domain_Name_System
 
 The main similarities and differences are:
 
-|                          |    Bonfida    |                       Suri                       |
-|--------------------------|:-------------:|:------------------------------------------------:|
-| Blockchain               |    Solana     |                      Solana                      |
-| Domains                  |  Only `.sol`  |            Any level including [TLDs]            |
-| Acquiring                |   Auctions    |      [Configurable Subscription model][*2]       |
-| NFT Support              | [Simple][*1]  |       [Ownership model](/domains/nfts)        |
-| Tagged domains `@myName` |      No       |            [Yes](/domains/tagged)             |
-| Custom protocol support  | [Limited][*3] | [Fully support](/protocol/records/protocols/) |
+|                           |    Bonfida    |                     Suri                      |
+|---------------------------|:-------------:|:---------------------------------------------:|
+| Blockchain                |    Solana     |                    Solana                     |
+| Domains                   |  Only `.sol`  |          Any level including [TLDs]           |
+| Acquiring                 |   Auctions    |     [Configurable Subscription model][*2]     |
+| NFT Support               | [Simple][*1]  |       [Ownership model](/domains/nfts)        |
+| Special domains `@myName` |      No       |            [Yes](/domains/tagged)             |
+| Custom protocol support   | [Limited][*3] | [Fully support](/protocol/records/protocols/) |
 
 ## ENS - Ethereum Name Service
 
@@ -28,15 +28,15 @@ great fee.
 
 The main similarities and differences are:
 
-|                          |                     ENS                      |                       Suri                       |
-|--------------------------|:--------------------------------------------:|:------------------------------------------------:|
-| Blockchain               |                   Ethereum                   |                      Solana                      |
-| Interaction fees         |                     High                     |                    Negligible                    |
-| Domains                  | Natively `.eth` and some others based on DNS |            Any level including [TLDs]            |
-| Acquiring                |                Single payment                |      [Configurable Subscription model][*2]       |
-| NFT Support              |         [Only `*.eth` natively][*4]          |       [Ownership model](/domains/nfts)        |
-| Tagged domains `@myName` |                      No                      |            [Yes](/domains/tagged)             |
-| Custom protocol support  |                [Limited][*5]                 | [Fully support](/protocol/records/protocols/) |
+|                           |                     ENS                      |                     Suri                      |
+|---------------------------|:--------------------------------------------:|:---------------------------------------------:|
+| Blockchain                |                   Ethereum                   |                    Solana                     |
+| Interaction fees          |                     High                     |                  Negligible                   |
+| Domains                   | Natively `.eth` and some others based on DNS |          Any level including [TLDs]           |
+| Acquiring                 |                Single payment                |     [Configurable Subscription model][*2]     |
+| NFT Support               |         [Only `*.eth` natively][*4]          |       [Ownership model](/domains/nfts)        |
+| Special domains `@myName` |                      No                      |            [Yes](/domains/tagged)             |
+| Custom protocol support   |                [Limited][*5]                 | [Fully support](/protocol/records/protocols/) |
 
 ## Why choose Suri?
 

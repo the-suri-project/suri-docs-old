@@ -25,7 +25,6 @@ suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 ::: details Formal definition
 
 ```:no-line-numbers
-# Format:
 <canonical_record> := <canonical_suri> ':' <protocol_list>
    <protocol_list> := <protocol> ('<' <protocol>)*
         <protocol> := <protocol_name> <protocol_arg>?
@@ -53,9 +52,9 @@ All records have a signature which allows them to be identified and classified. 
 names without arguments.
 
 ```:no-line-numbers
-Record:    suri.domains:http<tcp(80)<ipv4(127.0.0.1)
-                        ──── ───     ────
-Signature:              http<tcp    <ipv4
+   Record:    suri.domains:http<tcp(80)<ipv4(127.0.0.1)
+                           ──── ───     ────
+Signature:                 http<tcp    <ipv4
 ```
 
 ::: note Insight

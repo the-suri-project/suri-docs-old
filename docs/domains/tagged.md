@@ -27,6 +27,10 @@ or `MY_TOKEN.pricing`, which are perfectly fine but do not emphasize the actual 
 
 You can check the full [definition](/domains/formats#tagged-format) and all tagged types in the following section.
 
-As a final note, bear in mind that thanks to SUNS protocol's technology (Solana on-chain) users can store their public
+As a final note, bear in mind that thanks to [SUNS] protocol's technology (Solana on-chain) users can store their public
 information as part of a suri, which can then be used to perform simultaneous updates on all social network profiles.
 This feature is, of course, also included for tagged suris.
+
+[TLD]: https://en.wikipedia.org/wiki/Top-level_domain
+
+[SUNS]: /protocol/

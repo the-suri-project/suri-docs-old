@@ -10,6 +10,14 @@ html[data-theme=dark] #app {
   --sidebar-bg-color: #1a1a1a;
 }
 
+p {
+  hyphens: unset !important;
+}
+
+blockquote {
+  font-size: inherit;
+}
+
 .navbar {
   box-shadow: none;
 

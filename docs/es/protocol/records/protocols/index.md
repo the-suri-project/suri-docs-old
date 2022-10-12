@@ -1,9 +1,11 @@
 # Protocolos de registro
 
-Los registros se definen por el protocolo que se coloca en ellos y los argumentos de esos protocolos. Un registro puede contener uno o
-más protocolos formando una pila de protocolos en la que el primer protocolo es el superior y el resto se colocan debajo.
+Los registros se definen por el protocolo que se coloca en ellos y los argumentos de esos protocolos. Un registro puede
+contener uno o más protocolos formando una pila de protocolos en la que el primer protocolo es el superior y el resto se
+colocan debajo.
 
-La definición de un sitio web requiere una dirección IP, un puerto TCP, el uso o no del protocolo TLS y el protocolo HTTP, por lo que
+La definición de un sitio web requiere una dirección IP, un puerto TCP, el uso o no del protocolo TLS y el protocolo
+HTTP, por lo que
 se definiría como: `http<tls<tcp(443)<ipv4(0.0.0.0)`. Esto corresponde a la pila:
 
 ```:no-line-numbers
@@ -13,15 +15,16 @@ se definiría como: `http<tls<tcp(443)<ipv4(0.0.0.0)`. Esto corresponde a la pil
 1.     [Network level] ipv4(0.0.0.0)
 ```
 
-En la [sección siguiente](/es/protocol/records/protocols/standard) puedes encontrar la lista de protocolos con soporte nativo
-en **Suri** pero cualquiera puede usar cualquier protocolo personalizado y combinarlo con otros protocolos para construir una
-personalizada.
+En la [siguiente sección](/es/protocol/records/protocols/standard) puedes encontrar la lista de protocolos con soporte
+nativo en **Suri** pero cualquiera puede usar cualquier protocolo personalizado y combinarlo con otros protocolos para
+construir un registro personalizado.
 
-Por ejemplo, las redes sociales pueden utilizar las siguientes pilas de protocolos para acceder a la información pública de los usuarios:
+Por ejemplo, las redes sociales pueden utilizar las siguientes pilas de protocolos para acceder a la información pública
+de los usuarios:
 
 - `profile+name<text(USERNAME)` para el nombre.
 - `profile+desc<text(DESCRIPTION)` para la descripción.
 - `profile+pic<http<tls<tcp(443)<dns(WEB_DOMAIN_OF_MY_PICTURE)` para la foto de perfil.
 
-Este tipo de composición se abre junto con el [algoritmo de búsqueda](/es/protocol/search/) abre un amplio abanico de
+Este tipo de composición abre, junto con el [algoritmo de búsqueda](/es/protocol/searching/), un amplio abanico de
 posibilidades para incrementar los casos de uso de los suris.

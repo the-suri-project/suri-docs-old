@@ -143,11 +143,12 @@ Your suri can expire under two conditions:
 
 <FaqBox title="What happens when my Suri domain expires?">
 
-As you probably already know, Suris follow a subscription model in which they have an expiration date. When that date
-comes, the domain will be available for anyone to buy it. So the question here is, what happens with the associated NFT?
+Suris follow a subscription model in which they have an expiration date. When that date comes, the domain will be
+available for anyone to buy it. So the question here is, what happens with the associated NFT?
 
-The solution is very simple, the NFT mint (the definition, not the token itself) will be automatically canceled through
-an off-chain program, so the next owner will mint a nwe NFT for the domain.
+The NFT mint (the definition, not the token itself) will be automatically canceled through an off-chain program, so the
+next owner will mint a nwe NFT for the domain. The current NFT will have its image and meta replaced to reflect the new
+expired state, so users should burn the NFT to avoid confusion.
 
 </FaqBox>
 
@@ -176,4 +177,4 @@ of [SDKs](/development/sdk/), but you need to wait until the Phase 2 of the proj
 
 [TLD]: https://en.wikipedia.org/wiki/Top-level_domain
 
-[SNS]: https://spl.solana.com/name-service#:~:text=A%20SPL%20program%20for%20issuing,public%20keys%20with%20various%20links.
+[SNS]: https://spl.solana.com/name-service

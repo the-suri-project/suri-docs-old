@@ -6,7 +6,7 @@ this subscription model settings by adjusting the following parameters:
 
 - **Expiration**: the date in which the suri will expire.
 - **Subscription interval**: the number of seconds between each subscription payment.
-- **Subscription amount**: the amount of tokens (can be any) that will be paid each subscription interval.
+- **Subscription amount**: the amount of tokens (can be any SPL token) that will be paid each subscription interval.
 - **Extra initial payment**: the amount of tokens that will be paid at the moment of the subscription + the
   **Subscription amount** of the first period.
 - **Initial paid periods**: the number of periods that have been already paid at the moment of the subscription. This

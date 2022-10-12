@@ -6,7 +6,7 @@ ownership from the get-go.
 
 ## Booking methods
 
-There are 4 ways to book a suri without cost (apart from network fees). These methods will also grant first owners a
+There are 4 ways to book a suri without cost (apart from network fees). These methods will also grant owners a
 ***3-month discount*** once the suri is available for use:
 
 - **Twitter username**: with this option users can claim their Twitter username as a _mention_ ([tagged suri]),
@@ -27,8 +27,8 @@ There are 4 ways to book a suri without cost (apart from network fees). These me
   order regarding DNS, so if you book `mydomain.com` you will receive the equivalent suri `com.mydomain`.
   :::
 
-Apart from the previous options, users will also be given the possibility to buy the suri for a year at half of its
-final release price (the defined price starting from Phase 2). This is the only way for users to choose custom names
+Apart from the previous options, users will also be given the possibility to buy the suri for a year at a percentage of
+its final release price (the defined price starting from Phase 2). This is the only way for users to choose custom names
 during the booking process.
 
 Finally, we will be dropping giveaways during the whole first phase of the project. Stay tuned on messages in
@@ -36,11 +36,10 @@ our [Discord community](https://discord.gg/YdutySHbbk) to participate!
 
 ## Partnership program
 
-Other projects or NFT collections can also offer their users the possibility of booking a suri. To do so, they will have
-to establish a partnership with us. Once done they will be assigned a unique time window in which their users can book a
-suri using one of the previous methods. This guarantees some advantage over other users to get the suris they want.
-
-After some time, all the methods will be open without restrictions to everyone.
+Other projects or NFT collections can also offer their users the possibility of booking a suri with greater discounts or
+more free months. To do so, they will have to establish a partnership with us. Once done they will be assigned a unique
+time window in which their users can book a suri using one of the previous methods. This guarantees some advantage over
+other users to get the suris they want.
 
 If you are interested in this option, please contact us at our [Discord](https://discord.gg/YdutySHbbk).
 

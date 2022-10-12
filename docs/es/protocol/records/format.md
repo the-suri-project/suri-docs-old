@@ -1,32 +1,30 @@
 # Formato de los registros
 
-Los registros sólo tienen un formato canónico para sus definiciones, que consiste en un suri en
+Los registros solo tienen un formato canónico para sus definiciones, que consiste en un suri en
 su [formato canónico](/es/domains/formats#canonical-format) seguido de dos puntos `:` y una pila de protocolos junto con
 sus argumentos:
 
 ```:no-line-numbers
 suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 ─┬────────── ─┬──────────────────────────
- └►Suri       └►Protocol stack
+ └►Suri       └►Pila de protocolos
 ```
 
 Los protocolos se expresan indicando primero el nivel más alto para facilitar el proceso de búsqueda. Además, cada
 protocolo va seguido de un argumento opcional entre paréntesis en caso de que el protocolo lo necesite.
-
 
 ```:no-line-numbers
                    Protocol level
              + ───────────────────────► -
 suri.domains:http<tcp(80)<ipv4(127.0.0.1)
              ─┬──         ─┬─────────────
-              │            └► Protocol with argument
-              └─► Protocol without argument
+              │            └► Protocolo con argumento
+              └─► Protocolo sin argumento
 ```
 
-::: details definición formal
+::: details Definición formal
 
 ```:no-line-numbers
-# Format:
 <canonical_record> := <canonical_suri> ':' <protocol_list>
    <protocol_list> := <protocol> ('<' <protocol>)*
         <protocol> := <protocol_name> <protocol_arg>?
@@ -44,21 +42,22 @@ Los argumentos vacíos no están permitidos. Por ejemplo, `suri:protocol()` no e
 definición de registro válida.
 :::
 
-::: note Insight
+::: note Más info
 El valor final de un registro es el resultado de combinar el valor de cada protocolo dentro del registro.
 :::
 
 ## Firma
 
-Todos los registros tienen una firma que permite identificarlos y clasificarlos. La firma es la lista de nombres de protocolo
+Todos los registros tienen una firma que permite identificarlos y clasificarlos. La firma es la lista de nombres de
+protocolo
 sin argumentos.
 
 ```:no-line-numbers
-Record:    suri.domains:http<tcp(80)<ipv4(127.0.0.1)
-                        ──── ───     ────
-Signature:              http<tcp    <ipv4
+Registro:    suri.domains:http<tcp(80)<ipv4(127.0.0.1)
+                          ──── ───     ────
+   Firma:                 http<tcp    <ipv4
 ```
 
-::: note Insight
+::: note Más info
 La firma no tiene que ser única.
 :::
