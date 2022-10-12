@@ -21,7 +21,7 @@ domain `docs.suri.domains` would be written as `domains.suri.docs` in suri.
 The level of an entire Suri is equal to the most specific level entry, or the count of level entries. In the previous
 example, the Suri `suri.domains.docs` has a level of 3.
 
-When a Suri has a level of 1, it is called **TLD** suri or _Top Level Domain_ suri.
+When a Suri has a level of 1, it is called **TLD** suri or _Top Level Domain_ **Suri**.
 
 ## Canonical format
 
@@ -65,7 +65,9 @@ available tags are:
 | Ethereum       |   ⧫    | `⧫<suri>`   | `tag.eth.<suri>`      |
 | Solana         |   ◎    | `◎<suri>`   | `tag.sol.<suri>`      |
 
-For example: `@myUserName.twitter` is equivalent to `tag.mention.myUserName.twitter`.
+For example:
+
+- `@myUserName.twitter` is equivalent to `tag.mention.myUserName.twitter`.
 
 ::: details Formal definition
 

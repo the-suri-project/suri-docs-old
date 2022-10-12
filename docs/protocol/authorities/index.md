@@ -10,8 +10,7 @@ These delegated authorities can perform some actions on behalf of the main autho
 - Manage records.
 - Etc.
 
-This opens to great possibilities like granting access for a third party to manage some records, sell children or the
-suri itself, etc.
+This opens to great possibilities to integrate with suris with third-party services.
 
 ::: warning Phase 2
 More info will be available in the Phase 2 of the Suri Project.

@@ -30,7 +30,7 @@ export const enSidebar = sidebar({
             }, {
                 text: 'Protocols',
                 link: 'protocol/records/protocols/',
-                children: ['protocol/records/protocols/standard'],
+                children: ['protocol/records/protocols/standard', 'protocol/records/protocols/aliases'],
             }, {
                 text: 'Arguments',
                 link: 'protocol/records/arguments',

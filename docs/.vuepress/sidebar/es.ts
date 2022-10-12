@@ -3,7 +3,7 @@ import {sidebar} from 'vuepress-theme-hope';
 export const esSidebar = sidebar({
     '/es/': [{
         text: 'Introducción',
-        link: '/',
+        link: '/es/',
         children: ['overview', 'use-cases', 'faqs', 'competitors', 'tokenomics', 'roadmap'],
     }, {
         text: '🌐 Dominios Suri',
@@ -30,7 +30,7 @@ export const esSidebar = sidebar({
             }, {
                 text: 'Protocolos',
                 link: 'protocol/records/protocols/',
-                children: ['protocol/records/protocols/standard'],
+                children: ['protocol/records/protocols/standard', 'protocol/records/protocols/aliases'],
             }, {
                 text: 'Argumentos',
                 link: 'protocol/records/arguments',

@@ -1,7 +1,8 @@
 # Use cases & Key benefits
 
-**SUNS Protocol** will enhance current [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) service to create a new
-standard for developments made in Web3: the next internet generation.
+**SUNS Protocol** is part of the **Suri** project and will enhance
+current [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) service to create a new standard for developments made
+in Web3: the next internet generation.
 
 ## User benefits
 
@@ -25,9 +26,9 @@ A list of benefits coming from this infrastructure project is found below:
 - **Children management**: parents have the rights to manage his children, no one else will decide for you unless you
   want to approve an [authority](/protocol/authorities/).
 
-- **All your content in your suri**: under a single suri, an owner can [register](/protocol/records/) different
-  data with multiple purposes (website links, social media profiles, crypto wallets, etc.). This will enable users to
-  build _Digital Identity Services_ over the protocol.
+- **Localized content**: under a single suri, an owner can [register](/protocol/records/) different data with multiple
+  purposes (website links, social media profiles, crypto wallets, etc.). This will enable users to build _Digital
+  Identity Services_ over the protocol.
 
 ## Technical improvements
 
@@ -44,8 +45,8 @@ main features will be:
   etc. On the other side, the **SUNS Protocol** will support some built-in protocols but anyone can add support for
   any other protocol at any moment without restrictions.
 
-  This allows suris be mapped to wallets in any chain, websites, social or any other source of private information, etc.
-  hence enabling the use of suris as an identity service.
+  This allows suris be mapped to wallets in any blockchain, websites, social networks, etc. hence enabling the use of
+  suris as an identity service.
 
 - **Full routing**: forget about proxys. **SUNS Protocol**'s resolution algorithm will allow the routing
   to different services on different ports of the same machine without having to relay on a reverse proxy.
@@ -57,7 +58,7 @@ main features will be:
 
 - **Identity service**: suris will be able to store any kind of information. This, together with cryptography will give
   users the ability to store private information on-chain that can be verified by anyone using algorithms like
-  [ZK-proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof).
+  [ZK-proofs](https://es.wikipedia.org/wiki/Prueba_de_conocimiento_cero).
 
 - **Branding**: users will be able to use [TLD](https://en.wikipedia.org/wiki/Top-level_domain) suris like `myBrandName`
   or `@username` for their personal or professional identities so their customers and providers, friends or relatives,
@@ -72,7 +73,7 @@ Instead of needing domains `fakecompany.co.uk`, `fakecompany.us`, `fakecompany.a
 :::
 
 - **Global social information**: just by updating their suris, users can update their corporate identity or social media
-  identity.
+  identity, due to the centralization of the information in suris.
 
 - **On-chain authorization**: websites, social networks or any service can integrate with the **SUNS Protocol** to allow
   their users to sign up in their systems with users' suris. Those services can include some information in the suri
@@ -80,7 +81,7 @@ Instead of needing domains `fakecompany.co.uk`, `fakecompany.us`, `fakecompany.a
   log in again.
 
 - **Service load balancer**: thanks to the built-in support for balancing algorithms, users will be able to set their
-  services behind a suri instead of paying expensive services.
+  servers behind a suri instead of paying expensive services to accomplish that task.
 
 - **Serve multiple websites on the same machine**: currently we need to use reverse proxies to serve multiple websites
   on the same machine. With the **SUNS Protocol** this will be possible without the need of a reverse proxy.
@@ -97,3 +98,4 @@ Instead of needing domains `fakecompany.co.uk`, `fakecompany.us`, `fakecompany.a
 These ideas are just only the beginning, people are free to use and build over **SUNS Protocol** any way they want.
 
 Feel free to join us in the [Discord](https://discord.gg/YdutySHbbk) to tell us about new ideas and use cases.
+
