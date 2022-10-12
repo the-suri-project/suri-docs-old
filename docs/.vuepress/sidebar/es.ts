@@ -30,7 +30,7 @@ export const esSidebar = sidebar({
             }, {
                 text: 'Protocolos',
                 link: 'protocol/records/protocols/',
-                children: ['protocol/records/protocols/standard'],
+                children: ['protocol/records/protocols/standard', 'protocol/records/protocols/aliases'],
             }, {
                 text: 'Argumentos',
                 link: 'protocol/records/arguments',

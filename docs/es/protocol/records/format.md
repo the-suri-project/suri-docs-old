@@ -1,22 +1,24 @@
 # Formato de los registros
 
 Los registros solo tienen un formato canónico para sus definiciones, que consiste en un suri en
-su [formato canónico](/es/domains/formats#canonical-format) seguido de dos puntos `:` y una pila de protocolos junto con
-sus argumentos:
+su [formato canónico](/es/domains/formats#canonical-format) seguido de dos puntos `:` y una lista de protocolos junto
+con sus argumentos:
 
 ```:no-line-numbers
-suri.domains:http<tcp(80)<ipv4(127.0.0.1)
+suri.domains:http+tcp(80)+ipv4(127.0.0.1)
 ─┬────────── ─┬──────────────────────────
  └►Suri       └►Pila de protocolos
 ```
 
-Los protocolos se expresan indicando primero el nivel más alto para facilitar el proceso de búsqueda. Además, cada
-protocolo va seguido de un argumento opcional entre paréntesis en caso de que el protocolo lo necesite.
+Los protocolos se pueden expresar en cualquier orden pero la forma oficial es ordenados alfabéticamente. En el ejemplo
+anterior, el suri fue escrito como si fuera una pila de protocolos de red.
+
+Además, cada protocolo va seguido de un argumento opcional entre paréntesis en caso de que el protocolo lo necesite.
 
 ```:no-line-numbers
                    Protocol level
              + ───────────────────────► -
-suri.domains:http<tcp(80)<ipv4(127.0.0.1)
+suri.domains:http+tcp(80)+ipv4(127.0.0.1)
              ─┬──         ─┬─────────────
               │            └► Protocolo con argumento
               └─► Protocolo sin argumento
@@ -26,9 +28,9 @@ suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 
 ```:no-line-numbers
 <canonical_record> := <canonical_suri> ':' <protocol_list>
-   <protocol_list> := <protocol> ('<' <protocol>)*
+   <protocol_list> := <protocol> ('+' <protocol>)*
         <protocol> := <protocol_name> <protocol_arg>?
-   <protocol_name> := <name_char>+ ([-+] <name_char>+)*
+   <protocol_name> := <name_char>+ ("-" <name_char>+)*
        <name_char> := <unicode_xid_body> | <unicode_number>
     <protocol_arg> := '(' <escaped_text> ')'
     <escaped_text> := (<any char but [\n\r\t\s\\\)\|]> | <escape>)+
@@ -38,8 +40,7 @@ suri.domains:http<tcp(80)<ipv4(127.0.0.1)
 :::
 
 ::: warning
-Los argumentos vacíos no están permitidos. Por ejemplo, `suri:protocol()` no es una
-definición de registro válida.
+Los argumentos vacíos no están permitidos. Por ejemplo, `suri:protocol()` no es una definición de registro válida.
 :::
 
 ::: note Más info
@@ -53,9 +54,9 @@ protocolo
 sin argumentos.
 
 ```:no-line-numbers
-Registro:    suri.domains:http<tcp(80)<ipv4(127.0.0.1)
+Registro:    suri.domains:http+tcp(80)+ipv4(127.0.0.1)
                           ──── ───     ────
-   Firma:                 http<tcp    <ipv4
+   Firma:                 http+tcp    +ipv4
 ```
 
 ::: note Más info
