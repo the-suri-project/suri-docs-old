@@ -23,11 +23,18 @@ GitHub, de la misma forma que esta [documentación](https://github.com/treviware
 En este momento, los usuarios podrán usar y probar todo eel código, por lo que podremos arreglar cualquier error que
 aparezca en ese momento y mejorar el sistema con el feedback de la comunidad.
 
-## Fase 3 - Descentralización real
+## Fase 3 - Navegador Web3
 
-Tras un tiempo de estabilización, comenzaremos con la tercera fase, que será la descentralización real del proyecto.
-Consistirá en la creación de una DAO (_Organización Autónoma Descentralizada_) para gestionar los siguientes pasos del
-**Proyecto Suri**.
+Tras un tiempo de estabilización, publicaremos una primera versión de un navegador web personalizado que permita navegar
+por la web3 usando **Suri**. Esto nos permitirá llegar a un público más amplio y mostrar cómo desarrollar aplicaciones
+sobre **Suri**.
+
+Durante esta fase animaremos a la comunidad a crear aplicaciones sobre **Suri**, preparando tutoriales y ejemplos.
+
+## Fase 4 - Descentralización real
+
+Finalmente, comenzaremos con la tercera fase, que será la descentralización real del proyecto. Consistirá en la creación
+de una DAO (_Organización Autónoma Descentralizada_) para gestionar los siguientes pasos del **Proyecto Suri**.
 
 El gobierno de la DAO se apoyaría en un token SPL personalizado o en una colección NFT. En cualquier caso, discutiremos
 con la comunidad cómo hacerlo de la mejor manera para dar a ese método todo el apoyo legal necesario.

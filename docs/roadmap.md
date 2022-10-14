@@ -23,11 +23,18 @@ well as this [documentation](https://github.com/treviware/suri-docs) is now.
 People will be using and testing each part of the code, so we will be able to fix any bugs that appear at that moment
 and improve the system with the community's feedback.
 
-## Phase 3 - Real decentralization
+## Phase 3 - Web3 Browser
 
-After some time of stabilization, we will start with the third phase, which will be the real decentralization
-of the project. It will consist on creating a DAO (_Decentralized Autonomous Organization_) to manage the next steps of
-the **Suri Project**.
+After some time of stabilization, we will release a first version of a customized web browser that allows people to
+navigate through web3 using **Suri**. This will allow us to reach a wider audience and to show how to develop
+applications over **Suri**.
+
+During this phase we will encourage the community to build apps over **Suri** preparing tutorials and examples.
+
+## Phase 4 - Real decentralization
+
+Finally, we will start with the last phase, which will be the real decentralization of the project. It will consist on
+creating a DAO (_Decentralized Autonomous Organization_) to manage the next steps of the **Suri Project**.
 
 The governance of the DAO would be supported in a custom SPL token or a NFT collection, but we will discuss with the
 community how to do it the better way in order to give that method all the necessary legal support.
