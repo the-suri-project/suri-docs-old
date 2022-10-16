@@ -60,6 +60,10 @@ se puede utilizar cualquiera de los dos para hacer referencia al suri. Las etiqu
 | Ancla<br>(Anchor)          |    &    | `&<suri>`        | `tag.anchor.<suri>`   |
 | Alerta<br>(Alert)          |    !    | `!<suri>`        | `tag.alert.<suri>`    |
 | Pregunta<br>(Question)     |    ?    | `?<suri>`        | `tag.question.<suri>` |
+|                            |         |                  |                       |
+| Bitcoin                    |    ₿    | `₿<suri>`        | `tag.btc.<suri>`      |
+| Ethereum                   |    ⧫    | `⧫<suri>`        | `tag.eth.<suri>`      |
+| Solana                     |    ◎    | `◎<suri>`        | `tag.sol.<suri>`      |
 
 Por ejemplo:
 
