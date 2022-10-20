@@ -11,14 +11,14 @@ apoyarse en la web3 para construir un sistema más potente.
 
 Las principales similitudes y diferencias son:
 
-|                                 |    Bonfida     |                    Suri                    |
-|---------------------------------|:--------------:|:------------------------------------------:|
-| Blockchain                      |     Solana     |                   Solana                   |
-| Dominios                        |  Solo `.sol`   |     Cualquier nivel, incluyendo [TLDs]     |
-| Compra                          |    Subastas    | [Modelo de suscripción personalizable][*2] |
-| Compatibilidad con NFT          |  [Simple][*1]  |   [Modelo de gobierno](/es/domains/nfts)   |
-| Dominios especiales `@miNombre` |       No       |          [Sí](/es/domains/tagged)          |
-| Soporte protocolos personalizados | [Limitado][*3] |  [Completo](/protocol/records/protocols/)  |
+|                                   |          Bonfida          |                    Suri                    |
+|-----------------------------------|:-------------------------:|:------------------------------------------:|
+| Blockchain                        |          Solana           |                   Solana                   |
+| Dominios                          |        Solo `.sol`        |     Cualquier nivel, incluyendo [TLDs]     |
+| Compra                            | Subastas / Compra directa | [Modelo de suscripción personalizable][*2] |
+| Compatibilidad con NFT            |       [Simple][*1]        |   [Modelo de gobierno](/es/domains/nfts)   |
+| Dominios especiales `@miNombre`   |            No             |          [Sí](/es/domains/tagged)          |
+| Soporte protocolos personalizados |      [Limitado][*3]       |  [Completo](/protocol/records/protocols/)  |
 
 ## ENS - Servicio de nombres de Ethereum
 
