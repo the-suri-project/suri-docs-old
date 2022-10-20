@@ -10,14 +10,14 @@ beyond the current Web2's [DNS](https://en.wikipedia.org/wiki/Domain_Name_System
 
 The main similarities and differences are:
 
-|                           |    Bonfida    |                     Suri                      |
-|---------------------------|:-------------:|:---------------------------------------------:|
-| Blockchain                |    Solana     |                    Solana                     |
-| Domains                   |  Only `.sol`  |          Any level including [TLDs]           |
-| Acquiring                 |   Auctions    |     [Configurable Subscription model][*2]     |
-| NFT Support               | [Simple][*1]  |       [Ownership model](/domains/nfts)        |
-| Special domains `@myName` |      No       |            [Yes](/domains/tagged)             |
-| Custom protocol support   | [Limited][*3] | [Fully support](/protocol/records/protocols/) |
+|                           |         Bonfida          |                     Suri                      |
+|---------------------------|:------------------------:|:---------------------------------------------:|
+| Blockchain                |          Solana          |                    Solana                     |
+| Domains                   |       Only `.sol`        |          Any level including [TLDs]           |
+| Acquiring                 | Auction / Single payment |     [Configurable Subscription model][*2]     |
+| NFT Support               |       [Simple][*1]       |       [Ownership model](/domains/nfts)        |
+| Special domains `@myName` |            No            |            [Yes](/domains/tagged)             |
+| Custom protocol support   |      [Limited][*3]       | [Fully support](/protocol/records/protocols/) |
 
 ## ENS - Ethereum Name Service
 
