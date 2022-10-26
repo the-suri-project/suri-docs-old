@@ -23,13 +23,11 @@ GitHub, de la misma forma que esta [documentación](https://github.com/treviware
 En este momento, los usuarios podrán usar y probar todo eel código, por lo que podremos arreglar cualquier error que
 aparezca en ese momento y mejorar el sistema con el feedback de la comunidad.
 
-## Fase 3 - Navegador Web3
+## Fase 3 - Ecosistema Suri
 
-Tras un tiempo de estabilización, publicaremos una primera versión de un navegador web personalizado que permita navegar
-por la web3 usando **Suri**. Esto nos permitirá llegar a un público más amplio y mostrar cómo desarrollar aplicaciones
-sobre **Suri**.
-
-Durante esta fase animaremos a la comunidad a crear aplicaciones sobre **Suri**, preparando tutoriales y ejemplos.
+Tras un tiempo de estabilización, animaremos a la comunidad a crear aplicaciones sobre **Suri**, prepararemos tutoriales
+y ejemplos, nos asociaremos con otros proyectos, etc. Esto permitirá llegar a un público más amplio y mostrar el
+potencial de la nueva internet.
 
 ## Fase 4 - Descentralización real
 
