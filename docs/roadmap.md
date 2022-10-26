@@ -23,13 +23,11 @@ well as this [documentation](https://github.com/treviware/suri-docs) is now.
 People will be using and testing each part of the code, so we will be able to fix any bugs that appear at that moment
 and improve the system with the community's feedback.
 
-## Phase 3 - Web3 Browser
+## Phase 3 - Suri's ecosystem
 
-After some time of stabilization, we will release a first version of a customized web browser that allows people to
-navigate through web3 using **Suri**. This will allow us to reach a wider audience and to show how to develop
-applications over **Suri**.
-
-During this phase we will encourage the community to build apps over **Suri** preparing tutorials and examples.
+After some time of stabilization, we will encourage the community to build apps over **Suri**, prepare tutorials
+and examples, partner with other projects, etc. This will allow us to reach a wider audience and to show the potential
+the new internet.
 
 ## Phase 4 - Real decentralization
 
