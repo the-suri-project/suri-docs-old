@@ -1,6 +1,6 @@
-# Protocolo SUNS
+# Programa SUNS
 
-**El protocolo SUNS** es un programa en la blockchain de Solana que permite a los usuarios operar
+**El programa SUNS** es un programa en la blockchain de Solana que permite a los usuarios operar
 con [suris](/es/domains/). Su nombre proviene del acrónimo **SU**ri **N**ame **S**ervice. Es una alternativa
 descentralizada a su homólogo de la web2: el protocolo DNS, que está controlado por unas pocas grandes empresas.
 

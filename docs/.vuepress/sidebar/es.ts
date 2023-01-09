@@ -19,35 +19,35 @@ export const esSidebar = sidebar({
             link: 'domains/nfts',
         }],
     }, {
-        text: '📜 Protocolo SUNS',
-        link: 'protocol/',
-        children: ['protocol/subscription', {
+        text: '📜 Programa SUNS',
+        link: 'suns/',
+        children: ['suns/subscription', {
             text: 'Registros',
-            link: 'protocol/records/',
+            link: 'suns/records/',
             children: [{
                 text: 'Formato',
-                link: 'protocol/records/format',
+                link: 'suns/records/format',
             }, {
                 text: 'Protocolos',
-                link: 'protocol/records/protocols/',
-                children: ['protocol/records/protocols/standard', 'protocol/records/protocols/aliases'],
+                link: 'suns/records/protocols/',
+                children: ['suns/records/protocols/standard', 'suns/records/protocols/aliases'],
             }, {
                 text: 'Argumentos',
-                link: 'protocol/records/arguments',
+                link: 'suns/records/arguments',
             }],
         }, {
             text: 'Búsqueda',
-            link: 'protocol/searching/',
-            children: ['protocol/searching/formats', {
+            link: 'suns/searching/',
+            children: ['suns/searching/formats', {
                 text: 'Algoritmo',
-                link: 'protocol/searching/algorithm',
+                link: 'suns/searching/algorithm',
             }],
         }, {
             text: 'Autoridades',
-            link: 'protocol/authorities/',
+            link: 'suns/authorities/',
             children: [{
                 text: 'Permisos',
-                link: 'protocol/authorities/permissions',
+                link: 'suns/authorities/permissions',
             }],
         }],
     }],
