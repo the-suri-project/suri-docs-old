@@ -32,7 +32,7 @@ A continuación se ofrece una lista de beneficios derivados al adoptar el proyec
 
 ## Mejoras técnicas
 
-**El protocolo SUNS** es una versión en blockchain del
+**El programa SUNS** es una versión en blockchain del
 protocolo [DNS](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio) utilizado para navegar por Internet. No se
 trata de una simple sustitución, sino de una versión muy mejorada. Algunas de sus principales características son:
 
@@ -43,13 +43,13 @@ trata de una simple sustitución, sino de una versión muy mejorada. Algunas de 
   suscripción.
 
 - **Soporte avanzado para protocolos**: DNS solo soporta algunos protocolos estándar, como IPv4 (registro A), Email (
-  registro MX), etc. Por el contrario, el **Protocolo SUNS** soportará algunos protocolos incorporados pero cualquiera
+  registro MX), etc. Por el contrario, el **Programa SUNS** soportará algunos protocolos incorporados pero cualquiera
   puede añadir soporte para cualquier otro protocolo en cualquier momento sin restricciones.
 
   Esto permite que los suris sean mapeados a carteras de cualquier blockchain, sitios web, redes sociales, etc. Por lo
   tanto, permite el uso de suris como un servicio de identidad digital.
 
-- **Enrutamiento completo**: olvídate de los proxys. El algoritmo de resolución del **protocolo SUNS** permitirá el
+- **Enrutamiento completo**: olvídate de los proxys. El algoritmo de resolución del **programa SUNS** permitirá el
   enrutamiento a diferentes servicios en diferentes puertos de la misma máquina sin tener que redireccionar mediante un
   proxy inverso.
 
@@ -79,7 +79,7 @@ trata de una simple sustitución, sino de una versión muy mejorada. Algunas de 
   corporativa y/o su identidad en redes sociales debido a la centralización de los datos en los suris.
 
 - **Autorización on-chain**: los sitios web, las redes sociales o cualquier servicio pueden integrarse con
-  el **Protocolo SUNS** para permitir que sus usuarios se registren en sus sistemas con sus suris. Estos
+  el **Programa SUNS** para permitir que sus usuarios se registren en sus sistemas con sus suris. Estos
   servicios pueden incluir alguna información en el suri para definir que el usuario está autorizado a utilizar sus
   sistemas, por lo que el usuario solo tiene que probar la propiedad del suri para volver a iniciar sesión.
 
@@ -87,7 +87,7 @@ trata de una simple sustitución, sino de una versión muy mejorada. Algunas de 
   usuarios podrán poner sus servidores detrás de un suri en lugar de pagar costosos servicios para realizar esa tarea.
 
 - **Servir múltiples sitios web en la misma máquina**: actualmente necesitamos usar proxys inversos para servir
-  múltiples sitios web en la misma máquina. Con el **Protocolo SUNS** esto será posible sin necesidad de un reverse
+  múltiples sitios web en la misma máquina. Con el **Programa SUNS** esto será posible sin necesidad de un reverse
   proxy.
 
   ::: note Más info
@@ -99,7 +99,7 @@ trata de una simple sustitución, sino de una versión muy mejorada. Algunas de 
   cuanto el usuario deja de pagar o el suri expira, la suscripción se considera terminada, y esto puede reflejarse con
   una limitación de acceso al servicio ofrecido por la plataforma.
 
-Estas ideas son solo el principio, cualquiera es libre de usar y construir sobre el **Protocolo SUNS** de la forma que
+Estas ideas son solo el principio, cualquiera es libre de usar y construir sobre el **Programa SUNS** de la forma que
 desee.
 
 No dudes en unirte a nosotros en [Discord](https://discord.gg/YdutySHbbk) para contarnos nuevas ideas y casos de uso.

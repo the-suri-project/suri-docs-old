@@ -15,7 +15,7 @@ de recibir el primer feedback de la comunidad.
 Además, durante esta fase desarrollaremos el programa on-chain, los diferentes SDKs para interactuar con él, una
 interfaz de usuario para gestionar los suris, etc. y también haremos crecer la comunidad.
 
-## Fase 2 - Protocolo SUNS
+## Fase 2 - Programa SUNS
 
 Cuando comience la segunda fase, publicaremos los SDK, el programa on-chain, etc. como proyectos de código abierto en
 GitHub, de la misma forma que esta [documentación](https://github.com/treviware/suri-docs).

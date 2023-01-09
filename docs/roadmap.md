@@ -15,7 +15,7 @@ etc. apart from receiving initial feedback from the community.
 Moreover, during this phase we will be developing the on-chain program, the different SDKs to interact with it,
 a UI to manage the suris, etc. and we also be growing our community.
 
-## Phase 2 - SUNS protocol
+## Phase 2 - SUNS program
 
 When the second phase starts, we will release the SDKs, the on-chain program, etc. as open source projects on GitHub as
 well as this [documentation](https://github.com/treviware/suri-docs) is now.
